@@ -1,0 +1,442 @@
+{
+  "16": {
+    "level": "SC",
+    "sc": "Voice Over",
+    "nsc": null,
+    "vertical": "Music & Audio"
+  },
+  "49": {
+    "level": "SC",
+    "sc": "Logo Design",
+    "nsc": null,
+    "vertical": "Graphics & Design"
+  },
+  "50": {
+    "level": "SC",
+    "sc": "Illustration",
+    "nsc": null,
+    "vertical": "Graphics & Design"
+  },
+  "54": {
+    "level": "SC",
+    "sc": "Presentation Design",
+    "nsc": null,
+    "vertical": "Graphics & Design"
+  },
+  "99": {
+    "level": "SC",
+    "sc": "Video Editing",
+    "nsc": null,
+    "vertical": "Video & Animation"
+  },
+  "154": {
+    "level": "SC",
+    "sc": "T-Shirts & Merchandise",
+    "nsc": null,
+    "vertical": "Graphics & Design"
+  },
+  "156": {
+    "level": "SC",
+    "sc": "Session Musicians",
+    "nsc": null,
+    "vertical": "Music & Audio"
+  },
+  "158": {
+    "level": "SC",
+    "sc": "Singers & Vocalists",
+    "nsc": null,
+    "vertical": "Music & Audio"
+  },
+  "163": {
+    "level": "SC",
+    "sc": "Articles & Blog Posts",
+    "nsc": null,
+    "vertical": "Writing & Translation"
+  },
+  "249": {
+    "level": "SC",
+    "sc": "Slideshow Videos",
+    "nsc": null,
+    "vertical": "Video & Animation"
+  },
+  "329": {
+    "level": "SC",
+    "sc": "Video Ads & Commercials",
+    "nsc": null,
+    "vertical": "Video & Animation"
+  },
+  "340": {
+    "level": "SC",
+    "sc": "Portraits & Caricatures",
+    "nsc": null,
+    "vertical": "Graphics & Design"
+  },
+  "371": {
+    "level": "SC",
+    "sc": "Graphics for Streamers",
+    "nsc": null,
+    "vertical": "Graphics & Design"
+  },
+  "384": {
+    "level": "SC",
+    "sc": "Subtitles & Captions",
+    "nsc": null,
+    "vertical": "Video & Animation"
+  },
+  "386": {
+    "level": "SC",
+    "sc": "Podcast Cover Art",
+    "nsc": null,
+    "vertical": "Graphics & Design"
+  },
+  "392": {
+    "level": "SC",
+    "sc": "Songwriting",
+    "nsc": null,
+    "vertical": "Music & Audio"
+  },
+  "416": {
+    "level": "SC",
+    "sc": "Online Coding Lessons",
+    "nsc": null,
+    "vertical": "Programming & Tech"
+  },
+  "512": {
+    "level": "SC",
+    "sc": "Game Coaching",
+    "nsc": null,
+    "vertical": "Personal Growth & Hobbies"
+  },
+  "1000": {
+    "level": "NSC",
+    "sc": "Website Builders & CMS",
+    "nsc": "Full Website Creation",
+    "vertical": "Programming & Tech",
+    "sc_id": 138,
+    "nsc_id": 1000
+  },
+  "1001": {
+    "level": "NSC",
+    "sc": "Website Builders & CMS",
+    "nsc": "Theme/Plugin Installation",
+    "vertical": "Programming & Tech",
+    "sc_id": 138,
+    "nsc_id": 1001
+  },
+  "1002": {
+    "level": "NSC",
+    "sc": "Website Builders & CMS",
+    "nsc": "Customization",
+    "vertical": "Programming & Tech",
+    "sc_id": 138,
+    "nsc_id": 1002
+  },
+  "1003": {
+    "level": "NSC",
+    "sc": "Website Builders & CMS",
+    "nsc": "Bug Fixes",
+    "vertical": "Programming & Tech",
+    "sc_id": 138,
+    "nsc_id": 1003
+  },
+  "1004": {
+    "level": "NSC",
+    "sc": "Website Builders & CMS",
+    "nsc": "Backup & Migration",
+    "vertical": "Programming & Tech",
+    "sc_id": 138,
+    "nsc_id": 1004
+  },
+  "1005": {
+    "level": "NSC",
+    "sc": "Website Builders & CMS",
+    "nsc": "Performance & Security",
+    "vertical": "Programming & Tech",
+    "sc_id": 138,
+    "nsc_id": 1005
+  },
+  "1006": {
+    "level": "NSC",
+    "sc": "Website Builders & CMS",
+    "nsc": "Help/Consultation",
+    "vertical": "Programming & Tech",
+    "sc_id": 138,
+    "nsc_id": 1006
+  },
+  "1007": {
+    "level": "NSC",
+    "sc": "E-Commerce Development",
+    "nsc": "Full Website Creation",
+    "vertical": "Programming & Tech",
+    "sc_id": 139,
+    "nsc_id": 1007
+  },
+  "1008": {
+    "level": "NSC",
+    "sc": "E-Commerce Development",
+    "nsc": "Theme/Plugin Installation",
+    "vertical": "Programming & Tech",
+    "sc_id": 139,
+    "nsc_id": 1008
+  },
+  "1009": {
+    "level": "NSC",
+    "sc": "E-Commerce Development",
+    "nsc": "Customization",
+    "vertical": "Programming & Tech",
+    "sc_id": 139,
+    "nsc_id": 1009
+  },
+  "1010": {
+    "level": "NSC",
+    "sc": "E-Commerce Development",
+    "nsc": "Bug Fixes",
+    "vertical": "Programming & Tech",
+    "sc_id": 139,
+    "nsc_id": 1010
+  },
+  "1011": {
+    "level": "NSC",
+    "sc": "E-Commerce Development",
+    "nsc": "Backup & Migration",
+    "vertical": "Programming & Tech",
+    "sc_id": 139,
+    "nsc_id": 1011
+  },
+  "1012": {
+    "level": "NSC",
+    "sc": "E-Commerce Development",
+    "nsc": "Performance & Security",
+    "vertical": "Programming & Tech",
+    "sc_id": 139,
+    "nsc_id": 1012
+  },
+  "1013": {
+    "level": "NSC",
+    "sc": "E-Commerce Development",
+    "nsc": "Help/Consultation",
+    "vertical": "Programming & Tech",
+    "sc_id": 139,
+    "nsc_id": 1013
+  },
+  "1029": {
+    "level": "NSC",
+    "sc": "Website Builders & CMS",
+    "nsc": "Landing Page",
+    "vertical": "Programming & Tech",
+    "sc_id": 138,
+    "nsc_id": 1029
+  },
+  "2060": {
+    "level": "NSC",
+    "sc": "Social Media Marketing",
+    "nsc": "Consultation & Audience Research",
+    "vertical": "Digital Marketing",
+    "sc_id": 67,
+    "nsc_id": 2060
+  },
+  "2061": {
+    "level": "NSC",
+    "sc": "Social Media Marketing",
+    "nsc": "Profile Setup & Integration",
+    "vertical": "Digital Marketing",
+    "sc_id": 67,
+    "nsc_id": 2061
+  },
+  "2062": {
+    "level": "NSC",
+    "sc": "Social Media Marketing",
+    "nsc": "Social Content",
+    "vertical": "Digital Marketing",
+    "sc_id": 67,
+    "nsc_id": 2062
+  },
+  "2063": {
+    "level": "NSC",
+    "sc": "Social Media Marketing",
+    "nsc": "Social Media Management",
+    "vertical": "Digital Marketing",
+    "sc_id": 67,
+    "nsc_id": 2063
+  },
+  "2065": {
+    "level": "NSC",
+    "sc": "Social Media Marketing",
+    "nsc": "Analytics & Tracking",
+    "vertical": "Digital Marketing",
+    "sc_id": 67,
+    "nsc_id": 2065
+  },
+  "2240": {
+    "level": "NSC",
+    "sc": "Book & eBook Writing",
+    "nsc": "Ghostwriting",
+    "vertical": "Writing & Translation",
+    "sc_id": 354,
+    "nsc_id": 2240
+  },
+  "2328": {
+    "level": "NSC",
+    "sc": "Music Videos",
+    "nsc": "Lyric Videos",
+    "vertical": "Video & Animation",
+    "sc_id": 234,
+    "nsc_id": 2328
+  },
+  "2329": {
+    "level": "NSC",
+    "sc": "Music Videos",
+    "nsc": "Music Visualization",
+    "vertical": "Video & Animation",
+    "sc_id": 234,
+    "nsc_id": 2329
+  },
+  "2330": {
+    "level": "NSC",
+    "sc": "Music Videos",
+    "nsc": "Dance Videos",
+    "vertical": "Video & Animation",
+    "sc_id": 234,
+    "nsc_id": 2330
+  },
+  "2331": {
+    "level": "NSC",
+    "sc": "Music Videos",
+    "nsc": "Narrative-Based Videos",
+    "vertical": "Video & Animation",
+    "sc_id": 234,
+    "nsc_id": 2331
+  },
+  "2332": {
+    "level": "NSC",
+    "sc": "Music Videos",
+    "nsc": "Performance Videos",
+    "vertical": "Video & Animation",
+    "sc_id": 234,
+    "nsc_id": 2332
+  },
+  "2333": {
+    "level": "NSC",
+    "sc": "Music Videos",
+    "nsc": "Conceptual Videos",
+    "vertical": "Video & Animation",
+    "sc_id": 234,
+    "nsc_id": 2333
+  },
+  "2341": {
+    "level": "NSC",
+    "sc": "Music Videos",
+    "nsc": "Anime Music Videos",
+    "vertical": "Video & Animation",
+    "sc_id": 234,
+    "nsc_id": 2341
+  },
+  "2489": {
+    "level": "NSC",
+    "sc": "Music Videos",
+    "nsc": "Spotify Canvas",
+    "vertical": "Video & Animation",
+    "sc_id": 234,
+    "nsc_id": 2489
+  },
+  "2357": {
+    "level": "NSC",
+    "sc": "Development for Streamers",
+    "nsc": "Setup & Installation",
+    "vertical": "Programming & Tech",
+    "sc_id": 425,
+    "nsc_id": 2357
+  },
+  "2358": {
+    "level": "NSC",
+    "sc": "Development for Streamers",
+    "nsc": "Addons & Customization",
+    "vertical": "Programming & Tech",
+    "sc_id": 425,
+    "nsc_id": 2358
+  },
+  "2412": {
+    "level": "NSC",
+    "sc": "Fashion Design",
+    "nsc": "Technical Drawing & Tech Pack",
+    "vertical": "Graphics & Design",
+    "sc_id": 441,
+    "nsc_id": 2412
+  },
+  "2414": {
+    "level": "NSC",
+    "sc": "Fashion Design",
+    "nsc": "Fashion Illustration",
+    "vertical": "Graphics & Design",
+    "sc_id": 441,
+    "nsc_id": 2414
+  },
+  "2416": {
+    "level": "NSC",
+    "sc": "Fashion Design",
+    "nsc": "Full Design Process",
+    "vertical": "Graphics & Design",
+    "sc_id": 441,
+    "nsc_id": 2416
+  },
+  "2441": {
+    "level": "NSC",
+    "sc": "Animated Explainers",
+    "nsc": "2D Animated Explainers",
+    "vertical": "Video & Animation",
+    "sc_id": 228,
+    "nsc_id": 2441
+  },
+  "2442": {
+    "level": "NSC",
+    "sc": "Animated Explainers",
+    "nsc": "3D Animated Explainers",
+    "vertical": "Video & Animation",
+    "sc_id": 228,
+    "nsc_id": 2442
+  },
+  "2443": {
+    "level": "NSC",
+    "sc": "Animated Explainers",
+    "nsc": "Isometric Explainers",
+    "vertical": "Video & Animation",
+    "sc_id": 228,
+    "nsc_id": 2443
+  },
+  "2619": {
+    "level": "NSC",
+    "sc": "Website Maintenance",
+    "nsc": "Bug Fixes",
+    "vertical": "Programming & Tech",
+    "sc_id": 515,
+    "nsc_id": 2619
+  },
+  "51": {
+    "level": "SC",
+    "sc": "Book Design",
+    "nsc": null,
+    "vertical": "Graphics & Design"
+  },
+  "235": {
+    "level": "SC",
+    "sc": "Character Animation",
+    "nsc": null,
+    "vertical": "Video & Animation"
+  },
+  "2243": {
+    "level": "NSC",
+    "sc": "Game Development",
+    "nsc": "Full Game Creation",
+    "vertical": "Programming & Tech",
+    "sc_id": 364,
+    "nsc_id": 2243
+  },
+  "2245": {
+    "level": "NSC",
+    "sc": "Game Development",
+    "nsc": "Customization",
+    "vertical": "Programming & Tech",
+    "sc_id": 364,
+    "nsc_id": 2245
+  }
+}

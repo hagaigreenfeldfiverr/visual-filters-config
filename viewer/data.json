@@ -1,0 +1,3534 @@
+[
+  {
+    "id": "156",
+    "status": "live",
+    "vertical": "Music & Audio",
+    "sc": "Session Musicians",
+    "nsc": null,
+    "level": "SC",
+    "active": true,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "instrument",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "guitar",
+            "alias": "Guitar",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/guitar.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "drums",
+            "alias": "Drums",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/drums.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "piano",
+            "alias": "Piano",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/piano.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "bass",
+            "alias": "Bass",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/bass.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "keyboards",
+            "alias": "Keyboards",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/keyboards.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "violin",
+            "alias": "Violin",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/violin.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "saxophone",
+            "alias": "Saxophone",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/saxophone.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "trumpet",
+            "alias": "Trumpet",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/trumpet.svg",
+            "imageSource": "own"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2619",
+    "status": "live",
+    "vertical": "Programming & Tech",
+    "sc": "Website Maintenance",
+    "nsc": "Bug Fixes",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "platform",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "wordpress",
+            "alias": "WordPress",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/wordpress.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "wix",
+            "alias": "Wix",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/wix.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "webflow",
+            "alias": "Webflow",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/webflow.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "shopify",
+            "alias": "Shopify",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/shopify.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "woocommerce",
+            "alias": "WooCommerce",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/woocommerce.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "340",
+    "status": "live",
+    "vertical": "Graphics & Design",
+    "sc": "Portraits & Caricatures",
+    "nsc": null,
+    "level": "SC",
+    "active": true,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "illustration_type",
+        "tileSize": "large",
+        "options": [
+          {
+            "value": "portrait",
+            "alias": "Portrait",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/portrait.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "caricature",
+            "alias": "Caricature",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/caricature.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "pet_portrait",
+            "alias": "Pet portrait",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/pet_portrait.svg",
+            "imageSource": "own"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "154",
+    "status": "live",
+    "vertical": "Graphics & Design",
+    "sc": "T-Shirts & Merchandise",
+    "nsc": null,
+    "level": "SC",
+    "active": true,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "merch_type",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "t_shirts",
+            "alias": "T-shirts",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/t_shirts.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "clothing_apparel",
+            "alias": "Clothing & apparel",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/clothing_apparel.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "mugs",
+            "alias": "Mugs",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/mugs.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "hoodies",
+            "alias": "Hoodies",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/hoodies.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "stickers",
+            "alias": "Stickers",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/stickers.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "socks",
+            "alias": "Socks",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/socks.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "hats",
+            "alias": "Hats",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/hats.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "accessories",
+            "alias": "Accessories",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/accessories.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "jerseys_sportswear",
+            "alias": "Jerseys & sportswear",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/jerseys_sportswear.svg",
+            "imageSource": "own"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "512",
+    "status": "live",
+    "vertical": "Personal Growth & Hobbies",
+    "sc": "Game Coaching",
+    "nsc": null,
+    "level": "SC",
+    "active": true,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "game_name",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "valorant",
+            "alias": "Valorant",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/valorant.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "minecraft",
+            "alias": "Minecraft",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/minecraft.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "league_of_legends",
+            "alias": "League of Legends",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/league_of_legends.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "fortnite",
+            "alias": "Fortnite",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/fortnite.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "apex_legends",
+            "alias": "Apex Legends",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/apex_legends.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "roblox",
+            "alias": "Roblox",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/roblox.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "call_of_duty",
+            "alias": "Call of Duty",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/call_of_duty.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "counter_strike",
+            "alias": "Counter Strike",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/counter_strike.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "rocket_league",
+            "alias": "Rocket League",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/rocket_league.svg",
+            "imageSource": "own"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2358",
+    "status": "live",
+    "vertical": "Programming & Tech",
+    "sc": "Development for Streamers",
+    "nsc": "Addons & Customization",
+    "level": "NSC",
+    "active": true,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "software",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "streamlabs_obs",
+            "alias": "Streamlabs OBS",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/streamlabs_obs.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "obs_studio",
+            "alias": "OBS Studio",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/obs_studio.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "streamelements",
+            "alias": "Streamelements",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/streamelements.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "twitch_app",
+            "alias": "Twitch App",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/twitch_app.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2357",
+    "status": "live",
+    "vertical": "Programming & Tech",
+    "sc": "Development for Streamers",
+    "nsc": "Setup & Installation",
+    "level": "NSC",
+    "active": true,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "software",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "streamlabs_obs",
+            "alias": "Streamlabs OBS",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/streamlabs_obs.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "obs_studio",
+            "alias": "OBS Studio",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/obs_studio.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "streamelements",
+            "alias": "Streamelements",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/streamelements.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "twitch_app",
+            "alias": "Twitch App",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/twitch_app.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2240",
+    "status": "live",
+    "vertical": "Writing & Translation",
+    "sc": "Book & eBook Writing",
+    "nsc": "Ghostwriting",
+    "level": "NSC",
+    "active": true,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "language",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "english",
+            "alias": "English",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/english.png",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "german",
+            "alias": "German",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/german.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "spanish",
+            "alias": "Spanish",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/spanish.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "italian",
+            "alias": "Italian",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/italian.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "french",
+            "alias": "French",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/french.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      },
+      {
+        "id": "book_type",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "fiction",
+            "alias": "Fiction",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/fiction.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "non_fiction",
+            "alias": "Non-fiction",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/non_fiction.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      },
+      {
+        "id": "genre",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "self_help_wellness",
+            "alias": "Self help/ wellness",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/self_help_wellness.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "children_s_books",
+            "alias": "Children’s books",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/children_books.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "business_management",
+            "alias": "Business management",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/business.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "science_fiction_fantasy",
+            "alias": "Science Fiction Fantasy",
+            "aliasSource": "fallback",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/science_fiction_fantasy.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "romance",
+            "alias": "Romance",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/romance.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2442",
+    "status": "live",
+    "vertical": "Video & Animation",
+    "sc": "Animated Explainers",
+    "nsc": "3D Animated Explainers",
+    "level": "NSC",
+    "active": true,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "explainer_type",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "illustration",
+            "alias": "Illustration",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/Illustration.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "infographics",
+            "alias": "Infographics",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/infographics.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "text_animation",
+            "alias": "Text animation",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/text_animation.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2443",
+    "status": "live",
+    "vertical": "Video & Animation",
+    "sc": "Animated Explainers",
+    "nsc": "Isometric Explainers",
+    "level": "NSC",
+    "active": true,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "explainer_type",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "illustration",
+            "alias": "Illustration",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/Illustration.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "infographics",
+            "alias": "Infographics",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/infographics.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "text_animation",
+            "alias": "Text animation",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/text_animation.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2441",
+    "status": "live",
+    "vertical": "Video & Animation",
+    "sc": "Animated Explainers",
+    "nsc": "2D Animated Explainers",
+    "level": "NSC",
+    "active": true,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "explainer_type",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "illustration",
+            "alias": "Illustration",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/Illustration.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "infographics",
+            "alias": "Infographics",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/infographics.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "text_animation",
+            "alias": "Text animation",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/text_animation.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2341",
+    "status": "live",
+    "vertical": "Video & Animation",
+    "sc": "Music Videos",
+    "nsc": "Anime Music Videos",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "video_type",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "animated",
+            "alias": "Animated",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/animated.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "live_action",
+            "alias": "Live action",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/live_action.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2333",
+    "status": "live",
+    "vertical": "Video & Animation",
+    "sc": "Music Videos",
+    "nsc": "Conceptual Videos",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "video_type",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "animated",
+            "alias": "Animated",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/animated.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "live_action",
+            "alias": "Live action",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/live_action.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2330",
+    "status": "live",
+    "vertical": "Video & Animation",
+    "sc": "Music Videos",
+    "nsc": "Dance Videos",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "video_type",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "animated",
+            "alias": "Animated",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/animated.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "live_action",
+            "alias": "Live action",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/live_action.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2328",
+    "status": "live",
+    "vertical": "Video & Animation",
+    "sc": "Music Videos",
+    "nsc": "Lyric Videos",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "video_type",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "animated",
+            "alias": "Animated",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/animated.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "live_action",
+            "alias": "Live action",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/live_action.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2329",
+    "status": "live",
+    "vertical": "Video & Animation",
+    "sc": "Music Videos",
+    "nsc": "Music Visualization",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "video_type",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "animated",
+            "alias": "Animated",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/animated.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "live_action",
+            "alias": "Live action",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/live_action.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2331",
+    "status": "live",
+    "vertical": "Video & Animation",
+    "sc": "Music Videos",
+    "nsc": "Narrative-Based Videos",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "video_type",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "animated",
+            "alias": "Animated",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/animated.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "live_action",
+            "alias": "Live action",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/live_action.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2332",
+    "status": "live",
+    "vertical": "Video & Animation",
+    "sc": "Music Videos",
+    "nsc": "Performance Videos",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "video_type",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "animated",
+            "alias": "Animated",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/animated.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "live_action",
+            "alias": "Live action",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/live_action.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2489",
+    "status": "live",
+    "vertical": "Video & Animation",
+    "sc": "Music Videos",
+    "nsc": "Spotify Canvas",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "video_type",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "animated",
+            "alias": "Animated",
+            "aliasSource": "fallback",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/animated.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "live_action",
+            "alias": "Live Action",
+            "aliasSource": "fallback",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/live_action.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "158",
+    "status": "live",
+    "vertical": "Music & Audio",
+    "sc": "Singers & Vocalists",
+    "nsc": null,
+    "level": "SC",
+    "active": true,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "gender",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "female",
+            "alias": "Female",
+            "aliasSource": "fallback",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/female_singer.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "male",
+            "alias": "Male",
+            "aliasSource": "fallback",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/male_singer.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "non_binary",
+            "alias": "Non Binary",
+            "aliasSource": "fallback",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/non_binary.svg",
+            "imageSource": "own"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "329",
+    "status": "live",
+    "vertical": "Video & Animation",
+    "sc": "Video Ads & Commercials",
+    "nsc": null,
+    "level": "SC",
+    "active": true,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "platform",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "facebook",
+            "alias": "Facebook",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/facebook.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "generic",
+            "alias": "Generic",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/generic.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "instagram",
+            "alias": "Instagram",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/instagram.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "youtube",
+            "alias": "YouTube",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/youtube.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "tiktok",
+            "alias": "TikTok",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/tiktok.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "snapchat",
+            "alias": "Snapchat",
+            "aliasSource": "fallback",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/snapchat.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "pinterest",
+            "alias": "Pinterest",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/pinterest.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "linkedin",
+            "alias": "LinkedIn",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/linkedin.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "twitter",
+            "alias": "Twitter",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/twitter.svg",
+            "imageSource": "own"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1029",
+    "status": "live",
+    "vertical": "Programming & Tech",
+    "sc": "Website Builders & CMS",
+    "nsc": "Landing Page",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "platform",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "wix",
+            "alias": "Wix",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/wix.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "squarespace",
+            "alias": "Squarespace",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/squarespace.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "godaddy",
+            "alias": "GoDaddy",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/godaddy.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "sitebuilder",
+            "alias": "Sitebuilder",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/sitebuilder.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "webflow",
+            "alias": "Webflow",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/webflow.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1006",
+    "status": "live",
+    "vertical": "Programming & Tech",
+    "sc": "Website Builders & CMS",
+    "nsc": "Help/Consultation",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "platform",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "wix",
+            "alias": "Wix",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/wix.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "squarespace",
+            "alias": "Squarespace",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/squarespace.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "godaddy",
+            "alias": "GoDaddy",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/godaddy.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "sitebuilder",
+            "alias": "Sitebuilder",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/sitebuilder.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "webflow",
+            "alias": "Webflow",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/webflow.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1005",
+    "status": "live",
+    "vertical": "Programming & Tech",
+    "sc": "Website Builders & CMS",
+    "nsc": "Performance & Security",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "platform",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "wix",
+            "alias": "Wix",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/wix.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "squarespace",
+            "alias": "Squarespace",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/squarespace.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "godaddy",
+            "alias": "GoDaddy",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/godaddy.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "sitebuilder",
+            "alias": "Sitebuilder",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/sitebuilder.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "webflow",
+            "alias": "Webflow",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/webflow.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1004",
+    "status": "live",
+    "vertical": "Programming & Tech",
+    "sc": "Website Builders & CMS",
+    "nsc": "Backup & Migration",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "platform",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "wix",
+            "alias": "Wix",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/wix.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "squarespace",
+            "alias": "Squarespace",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/squarespace.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "godaddy",
+            "alias": "GoDaddy",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/godaddy.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "sitebuilder",
+            "alias": "Sitebuilder",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/sitebuilder.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "webflow",
+            "alias": "Webflow",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/webflow.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1003",
+    "status": "live",
+    "vertical": "Programming & Tech",
+    "sc": "Website Builders & CMS",
+    "nsc": "Bug Fixes",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "platform",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "wix",
+            "alias": "Wix",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/wix.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "squarespace",
+            "alias": "Squarespace",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/squarespace.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "godaddy",
+            "alias": "GoDaddy",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/godaddy.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "sitebuilder",
+            "alias": "Sitebuilder",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/sitebuilder.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "webflow",
+            "alias": "Webflow",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/webflow.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1002",
+    "status": "live",
+    "vertical": "Programming & Tech",
+    "sc": "Website Builders & CMS",
+    "nsc": "Customization",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "platform",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "wix",
+            "alias": "Wix",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/wix.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "squarespace",
+            "alias": "Squarespace",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/squarespace.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "godaddy",
+            "alias": "GoDaddy",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/godaddy.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "sitebuilder",
+            "alias": "Sitebuilder",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/sitebuilder.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "webflow",
+            "alias": "Webflow",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/webflow.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      },
+      {
+        "id": "spcecialization",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "blog_magazine",
+            "alias": "Blog",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/blog.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "corporate",
+            "alias": "Business",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/business.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "education",
+            "alias": "Education",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/education.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "portfolio",
+            "alias": "Portfolio",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/portfolio.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "entertainment",
+            "alias": "Entertainment",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/entertainment.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "wedding",
+            "alias": "Wedding",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/wedding.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1001",
+    "status": "live",
+    "vertical": "Programming & Tech",
+    "sc": "Website Builders & CMS",
+    "nsc": "Theme/Plugin Installation",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "platform",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "wix",
+            "alias": "Wix",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/wix.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "squarespace",
+            "alias": "Squarespace",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/squarespace.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "godaddy",
+            "alias": "GoDaddy",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/godaddy.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "sitebuilder",
+            "alias": "SiteBuilder",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/sitebuilder.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "webflow",
+            "alias": "Webflow",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/webflow.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1000",
+    "status": "live",
+    "vertical": "Programming & Tech",
+    "sc": "Website Builders & CMS",
+    "nsc": "Full Website Creation",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "spcecialization",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "blog_magazine",
+            "alias": "Blog",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/blog.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "corporate",
+            "alias": "Business",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/business.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "education",
+            "alias": "Education",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/education.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "portfolio",
+            "alias": "Portfolio",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/portfolio.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "entertainment",
+            "alias": "Entertainment",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/entertainment.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "wedding",
+            "alias": "Wedding",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/wedding.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      },
+      {
+        "id": "platform",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "wix",
+            "alias": "Wix",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/wix.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "squarespace",
+            "alias": "Squarespace",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/squarespace.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "godaddy",
+            "alias": "GoDaddy",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/godaddy.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "sitebuilder",
+            "alias": "Sitebuilder",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/sitebuilder.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "webflow",
+            "alias": "Webflow",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/webflow.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1007",
+    "status": "live",
+    "vertical": "Programming & Tech",
+    "sc": "E-Commerce Development",
+    "nsc": "Full Website Creation",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "platform",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "shopify",
+            "alias": "Shopify",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/shopify.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "woocommerce",
+            "alias": "WooCommerce",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/woocommerce.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "magento",
+            "alias": "Magento",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/magento.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "prestashop",
+            "alias": "Prestashop",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/prestashop.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "opencart",
+            "alias": "Opencart",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/opencart.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "bigcommerce",
+            "alias": "BigCommerce",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/bigcommerce.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1008",
+    "status": "live",
+    "vertical": "Programming & Tech",
+    "sc": "E-Commerce Development",
+    "nsc": "Theme/Plugin Installation",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "platform",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "shopify",
+            "alias": "Shopify",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/shopify.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "woocommerce",
+            "alias": "WooCommerce",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/woocommerce.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "magento",
+            "alias": "Magento",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/magento.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "prestashop",
+            "alias": "Prestashop",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/prestashop.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "opencart",
+            "alias": "Opencart",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/opencart.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "bigcommerce",
+            "alias": "BigCommerce",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/bigcommerce.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1009",
+    "status": "live",
+    "vertical": "Programming & Tech",
+    "sc": "E-Commerce Development",
+    "nsc": "Customization",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "platform",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "shopify",
+            "alias": "Shopify",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/shopify.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "woocommerce",
+            "alias": "WooCommerce",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/woocommerce.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "magento",
+            "alias": "Magento",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/magento.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "prestashop",
+            "alias": "Prestashop",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/prestashop.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "opencart",
+            "alias": "Opencart",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/opencart.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "bigcommerce",
+            "alias": "BigCommerce",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/bigcommerce.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1010",
+    "status": "live",
+    "vertical": "Programming & Tech",
+    "sc": "E-Commerce Development",
+    "nsc": "Bug Fixes",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "platform",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "shopify",
+            "alias": "Shopify",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/shopify.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "woocommerce",
+            "alias": "WooCommerce",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/woocommerce.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "magento",
+            "alias": "Magento",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/magento.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "prestashop",
+            "alias": "Prestashop",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/prestashop.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "opencart",
+            "alias": "Opencart",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/opencart.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "bigcommerce",
+            "alias": "BigCommerce",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/bigcommerce.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1011",
+    "status": "live",
+    "vertical": "Programming & Tech",
+    "sc": "E-Commerce Development",
+    "nsc": "Backup & Migration",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "platform",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "shopify",
+            "alias": "Shopify",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/shopify.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "woocommerce",
+            "alias": "WooCommerce",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/woocommerce.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "magento",
+            "alias": "Magento",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/magento.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "prestashop",
+            "alias": "Prestashop",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/prestashop.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "opencart",
+            "alias": "Opencart",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/opencart.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "bigcommerce",
+            "alias": "BigCommerce",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/bigcommerce.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1012",
+    "status": "live",
+    "vertical": "Programming & Tech",
+    "sc": "E-Commerce Development",
+    "nsc": "Performance & Security",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "platform",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "shopify",
+            "alias": "Shopify",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/shopify.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "woocommerce",
+            "alias": "WooCommerce",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/woocommerce.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "magento",
+            "alias": "Magento",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/magento.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "prestashop",
+            "alias": "Prestashop",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/prestashop.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "opencart",
+            "alias": "Opencart",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/opencart.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "bigcommerce",
+            "alias": "BigCommerce",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/bigcommerce.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1013",
+    "status": "live",
+    "vertical": "Programming & Tech",
+    "sc": "E-Commerce Development",
+    "nsc": "Help/Consultation",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "platform",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "shopify",
+            "alias": "Shopify",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/shopify.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "woocommerce",
+            "alias": "WooCommerce",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/woocommerce.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "magento",
+            "alias": "Magento",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/magento.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "prestashop",
+            "alias": "Prestashop",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/prestashop.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "opencart",
+            "alias": "Opencart",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/opencart.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "bigcommerce",
+            "alias": "Bigcommerce",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/bigcommerce.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2060",
+    "status": "live",
+    "vertical": "Digital Marketing",
+    "sc": "Social Media Marketing",
+    "nsc": "Consultation & Audience Research",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "platform_type",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "facebook",
+            "alias": "Facebook",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/facebook.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "instagram",
+            "alias": "Instagram",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/instagram.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "linkedin",
+            "alias": "LinkedIn",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/linkedin.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "twitter",
+            "alias": "Twitter",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/twitter.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "youtube",
+            "alias": "YouTube",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/youtube.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2061",
+    "status": "live",
+    "vertical": "Digital Marketing",
+    "sc": "Social Media Marketing",
+    "nsc": "Profile Setup & Integration",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "platform_type",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "facebook",
+            "alias": "Facebook",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/facebook.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "instagram",
+            "alias": "Instagram",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/instagram.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "linkedin",
+            "alias": "LinkedIn",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/linkedin.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "twitter",
+            "alias": "Twitter",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/twitter.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "youtube",
+            "alias": "YouTube",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/youtube.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2062",
+    "status": "live",
+    "vertical": "Digital Marketing",
+    "sc": "Social Media Marketing",
+    "nsc": "Social Content",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "platform_type",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "facebook",
+            "alias": "Facebook",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/facebook.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "instagram",
+            "alias": "Instagram",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/instagram.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "linkedin",
+            "alias": "LinkedIn",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/linkedin.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "twitter",
+            "alias": "Twitter",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/twitter.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "youtube",
+            "alias": "YouTube",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/youtube.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2063",
+    "status": "live",
+    "vertical": "Digital Marketing",
+    "sc": "Social Media Marketing",
+    "nsc": "Social Media Management",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "platform_type",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "facebook",
+            "alias": "Facebook",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/facebook.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "instagram",
+            "alias": "Instagram",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/instagram.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "linkedin",
+            "alias": "LinkedIn",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/linkedin.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "twitter",
+            "alias": "Twitter",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/twitter.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "youtube",
+            "alias": "YouTube",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/youtube.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2065",
+    "status": "live",
+    "vertical": "Digital Marketing",
+    "sc": "Social Media Marketing",
+    "nsc": "Analytics & Tracking",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "platform_type",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "facebook",
+            "alias": "Facebook",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/facebook.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "instagram",
+            "alias": "Instagram",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/instagram.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "linkedin",
+            "alias": "LinkedIn",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/linkedin.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "twitter",
+            "alias": "Twitter",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/twitter.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "youtube",
+            "alias": "YouTube",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/youtube.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "386",
+    "status": "live",
+    "vertical": "Graphics & Design",
+    "sc": "Podcast Cover Art",
+    "nsc": null,
+    "level": "SC",
+    "active": true,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "podcast_cover_style",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "photographic",
+            "alias": "Photographic",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/photographic.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "illustrative",
+            "alias": "Illustrative",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/illustrative.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "typographic",
+            "alias": "Typographic",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/typographic.svg",
+            "imageSource": "own"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "50",
+    "status": "live",
+    "vertical": "Graphics & Design",
+    "sc": "Illustration",
+    "nsc": null,
+    "level": "SC",
+    "active": true,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "illustration_style",
+        "tileSize": "large",
+        "options": [
+          {
+            "value": "for_children",
+            "alias": "For children",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/for_children.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "realistic_drawing",
+            "alias": "Realistic",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/realistic_drawing.png",
+            "imageSource": "own"
+          },
+          {
+            "value": "comic_cartoon",
+            "alias": "Comic & cartoon",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/comic_cartoon.png",
+            "imageSource": "own"
+          },
+          {
+            "value": "manga",
+            "alias": "Anime & manga",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/manga.png",
+            "imageSource": "own"
+          },
+          {
+            "value": "flat",
+            "alias": "Flat",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/flat.png",
+            "imageSource": "own"
+          },
+          {
+            "value": "line_art",
+            "alias": "Line Art",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/line_art.png",
+            "imageSource": "own"
+          },
+          {
+            "value": "sketch",
+            "alias": "Sketch",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/sketch.png",
+            "imageSource": "own"
+          }
+        ]
+      },
+      {
+        "id": "artistic_technique",
+        "tileSize": "large",
+        "options": [
+          {
+            "value": "freehand_digital",
+            "alias": "Freehand digital",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/freehand_digital.png",
+            "imageSource": "own"
+          },
+          {
+            "value": "vector_art",
+            "alias": "Vector art",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/vector_art.png",
+            "imageSource": "own"
+          },
+          {
+            "value": "mixed_media",
+            "alias": "Mixed media",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/mixed_media.png",
+            "imageSource": "own"
+          },
+          {
+            "value": "pen_ink",
+            "alias": "Pen & ink",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/pen_ink.png",
+            "imageSource": "own"
+          },
+          {
+            "value": "watercolor",
+            "alias": "Watercolor",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/watercolor.png",
+            "imageSource": "own"
+          },
+          {
+            "value": "pencil",
+            "alias": "Pencil",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/pencil.png",
+            "imageSource": "own"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "392",
+    "status": "live",
+    "vertical": "Music & Audio",
+    "sc": "Songwriting",
+    "nsc": null,
+    "level": "SC",
+    "active": true,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "genre",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "pop",
+            "alias": "Pop",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/pop.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "hip_hop",
+            "alias": "Hip-hop",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/hip_hop.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "rap",
+            "alias": "Rap",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/rap.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "r_b",
+            "alias": "R&B",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/r_b.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "edm",
+            "alias": "EDM",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/edm.svg",
+            "imageSource": "own"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "249",
+    "status": "live",
+    "vertical": "Video & Animation",
+    "sc": "Slideshow Videos",
+    "nsc": null,
+    "level": "SC",
+    "active": true,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "type",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "weddings_events",
+            "alias": "Weddings & events",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/wedding.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "family_travel",
+            "alias": "Family & travel",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/family_videos.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "corporate",
+            "alias": "Corporate presentations",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/corporate_videos.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "sports_games",
+            "alias": "Sports & games",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/sport_games.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "elearning",
+            "alias": "eLearning",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/elearning.svg",
+            "imageSource": "own"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "158",
+    "status": "live",
+    "vertical": "Music & Audio",
+    "sc": "Singers & Vocalists",
+    "nsc": null,
+    "level": "SC",
+    "active": true,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "gender",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "female",
+            "alias": "Female",
+            "aliasSource": "fallback",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/female_singer.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "male",
+            "alias": "Male",
+            "aliasSource": "fallback",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/male_singer.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "non_binary",
+            "alias": "Non Binary",
+            "aliasSource": "fallback",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/non_binary.svg",
+            "imageSource": "own"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "416",
+    "status": "live",
+    "vertical": "Programming & Tech",
+    "sc": "Online Coding Lessons",
+    "nsc": null,
+    "level": "SC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "development_technology",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "python",
+            "alias": "Python",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/python.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "c",
+            "alias": "C/C++",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/c.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "javascript",
+            "alias": "JavaScript",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/javascript.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "java",
+            "alias": "Java",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/java.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "html",
+            "alias": "HTML",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/html.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "css",
+            "alias": "CSS",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/css.svg",
+            "imageSource": "own"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2416",
+    "status": "live",
+    "vertical": "Graphics & Design",
+    "sc": "Fashion Design",
+    "nsc": "Full Design Process",
+    "level": "NSC",
+    "active": true,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "gender_and_group",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "women",
+            "alias": "Women",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/women.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "men",
+            "alias": "Men",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/men.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "unisex",
+            "alias": "Unisex",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/unisex.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "kids",
+            "alias": "Kids",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/kids.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2414",
+    "status": "live",
+    "vertical": "Graphics & Design",
+    "sc": "Fashion Design",
+    "nsc": "Fashion Illustration",
+    "level": "NSC",
+    "active": true,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "item_type",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "clothing",
+            "alias": "Clothing",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/clothing.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "shoes",
+            "alias": "Shoes",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/shoes.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "accessories",
+            "alias": "Accessories",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/accessories.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "bags",
+            "alias": "Bags",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/bags.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "full_outfit",
+            "alias": "Full outfit",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/full_outfit.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2412",
+    "status": "live",
+    "vertical": "Graphics & Design",
+    "sc": "Fashion Design",
+    "nsc": "Technical Drawing & Tech Pack",
+    "level": "NSC",
+    "active": true,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "item_type",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "clothing",
+            "alias": "Clothing",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/clothing.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "bags",
+            "alias": "Bags",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/bags.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "shoes",
+            "alias": "Shoes",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/shoes.svg",
+            "imageSource": "parent-sc"
+          },
+          {
+            "value": "accessories",
+            "alias": "Accessories",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/accessories.svg",
+            "imageSource": "parent-sc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "384",
+    "status": "live",
+    "vertical": "Video & Animation",
+    "sc": "Subtitles & Captions",
+    "nsc": null,
+    "level": "SC",
+    "active": true,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "language",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "english",
+            "alias": "English",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/english.png",
+            "imageSource": "own"
+          },
+          {
+            "value": "spanish",
+            "alias": "Spanish",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/spanish.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "french",
+            "alias": "French",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/french.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "german",
+            "alias": "German",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/german.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "arabic",
+            "alias": "Arabic",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/arabic.svg",
+            "imageSource": "own"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "163",
+    "status": "live",
+    "vertical": "Writing & Translation",
+    "sc": "Articles & Blog Posts",
+    "nsc": null,
+    "level": "SC",
+    "active": true,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "language",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "english",
+            "alias": "English",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/english.png",
+            "imageSource": "own"
+          },
+          {
+            "value": "spanish",
+            "alias": "Spanish",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/spanish.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "french",
+            "alias": "French",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/french.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "german",
+            "alias": "German",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/german.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "italian",
+            "alias": "Italian",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/italian.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "dutch",
+            "alias": "Dutch",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/dutch.svg",
+            "imageSource": "own"
+          }
+        ]
+      },
+      {
+        "id": "topic",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "internet_technology",
+            "alias": "Internet & technology",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/internet_technology.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "health_medical",
+            "alias": "Health & medical",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/health_medical.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "lifestyle",
+            "alias": "Lifestyle",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/lifestyle.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "business_finance_law",
+            "alias": "Finance & Law",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/business_finance_law.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "beauty_fashion",
+            "alias": "Beauty & fashion",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/beauty_fashion.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "marketing",
+            "alias": "Marketing",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/marketing.svg",
+            "imageSource": "own"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "54",
+    "status": "live",
+    "vertical": "Graphics & Design",
+    "sc": "Presentation Design",
+    "nsc": null,
+    "level": "SC",
+    "active": true,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "purpose",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "marketing",
+            "alias": "Marketing",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/marketing.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "investor_pitch_fundraising",
+            "alias": "Investor & Fundraising",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/investor_pitch_fundraising.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "business_proposal",
+            "alias": "Business proposal",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/business_proposal.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "education_training",
+            "alias": "Education",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/education_training.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "sales",
+            "alias": "Sales",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/sales.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "conference",
+            "alias": "Conferences",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/conference.svg",
+            "imageSource": "own"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "49",
+    "status": "live",
+    "vertical": "Graphics & Design",
+    "sc": "Logo Design",
+    "nsc": null,
+    "level": "SC",
+    "active": true,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "style",
+        "tileSize": "large",
+        "options": [
+          {
+            "value": "flat_minimalist",
+            "alias": "Minimalist",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/flat_minimalist.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "hand_drawn",
+            "alias": "Hand-drawn",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/hand_drawn.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "retro",
+            "alias": "Vintage",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/retro.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "mascot_cartoon",
+            "alias": "Cartoon",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/mascot_cartoon.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "3d",
+            "alias": "3D",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/three_dimentional.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "lettering",
+            "alias": "Lettering",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/lettering.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "geometric",
+            "alias": "Geometric",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/geometric.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "signature",
+            "alias": "Signature",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/signature.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "watercolor_feminine",
+            "alias": "Watercolor",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/watercolor_feminine.svg",
+            "imageSource": "own"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "371",
+    "status": "live",
+    "vertical": "Graphics & Design",
+    "sc": "Graphics for Streamers",
+    "nsc": null,
+    "level": "SC",
+    "active": true,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "asset_type",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "emotes_badges",
+            "alias": "Emotes & badges",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/emotes_badges.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "overlays_screen_packs",
+            "alias": "Overlays",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/overlays_screen_packs.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "panels",
+            "alias": "Panels",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/panels.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "thumbnails",
+            "alias": "Thumbnails",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/thumbnails.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "banners",
+            "alias": "Banners",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/banners.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "alerts",
+            "alias": "Alerts",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/alerts.svg",
+            "imageSource": "own"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "99",
+    "status": "live",
+    "vertical": "Video & Animation",
+    "sc": "Video Editing",
+    "nsc": null,
+    "level": "SC",
+    "active": true,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "service_type",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "ads_social_media_videos",
+            "alias": "Ads & social",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/ads_social_media_videos.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "youtube_videos",
+            "alias": "YouTube videos",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/youtube_videos.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "corporate_videos",
+            "alias": "Corporate videos",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/corporate_videos.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "gaming_videos",
+            "alias": "Gaming videos",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/gaming_videos.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "family_videos",
+            "alias": "Family & travel",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/family_videos.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "music_videos",
+            "alias": "Music videos",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/music_videos.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "event_videos",
+            "alias": "Weddings & events",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/event_videos.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "explainer_videos",
+            "alias": "Explainer videos",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/explainer_videos.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "showreels",
+            "alias": "Showreels",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/showreels.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "fiction_films",
+            "alias": "Fiction films",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/fiction_films.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "movie_trailers",
+            "alias": "Movie trailers",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/movie_trailers.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "vr_360_video",
+            "alias": "VR & 360",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/vr_360_video.svg",
+            "imageSource": "own"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "status": "live",
+    "vertical": "Music & Audio",
+    "sc": "Voice Over",
+    "nsc": null,
+    "level": "SC",
+    "active": true,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "language",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "english",
+            "alias": "English",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/english.png",
+            "imageSource": "own"
+          },
+          {
+            "value": "german",
+            "alias": "German",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/german.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "french",
+            "alias": "French",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/french.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "arabic",
+            "alias": "Arabic",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/arabic.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "italian",
+            "alias": "Italian",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/italian.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "spanish",
+            "alias": "Spanish",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/spanish.svg",
+            "imageSource": "own"
+          }
+        ]
+      },
+      {
+        "id": "gender",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "female",
+            "alias": "Female",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/female.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "male",
+            "alias": "Male",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/male.svg",
+            "imageSource": "own"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "51",
+    "status": "candidate",
+    "vertical": "Graphics & Design",
+    "sc": "Book Design",
+    "nsc": null,
+    "level": "SC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "design_style",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "illustrative",
+            "alias": "Illustrative",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1790059052/listings_assets/metadata/illustrative.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "typographic",
+            "alias": "Typographic",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1790059241/listings_assets/metadata/typographic.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "photographic",
+            "alias": "Photographic",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1790059168/listings_assets/metadata/photographic.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "minimalistic",
+            "alias": "Minimalistic",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1790059102/listings_assets/metadata/minimalistic.svg",
+            "imageSource": "own"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "235",
+    "status": "candidate",
+    "vertical": "Video & Animation",
+    "sc": "Character Animation",
+    "nsc": null,
+    "level": "SC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "animation_type",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "2d",
+            "alias": "2D",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1790058975/listings_assets/metadata/2d.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "3d",
+            "alias": "3D",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1790059024/listings_assets/metadata/3d.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "stop_motion",
+            "alias": "Stop motion",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1790059203/listings_assets/metadata/stop_motion.svg",
+            "imageSource": "own"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2243",
+    "status": "candidate",
+    "vertical": "Programming & Tech",
+    "sc": "Game Development",
+    "nsc": "Full Game Creation",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "game_engine",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "unity",
+            "alias": "Unity",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1790059414/listings_assets/metadata/unity.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "unreal_engine",
+            "alias": "Unreal Engine",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1790059442/listings_assets/metadata/unreal_engine.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "fivem",
+            "alias": "FiveM",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1790059280/listings_assets/metadata/fivem.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "roblox",
+            "alias": "Roblox",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/roblox.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "godot",
+            "alias": "Godot",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1790059317/listings_assets/metadata/godot.svg",
+            "imageSource": "own"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2245",
+    "status": "candidate",
+    "vertical": "Programming & Tech",
+    "sc": "Game Development",
+    "nsc": "Customization",
+    "level": "NSC",
+    "active": false,
+    "hasImages": true,
+    "hasPartialImages": false,
+    "filters": [
+      {
+        "id": "game_engine",
+        "tileSize": "default",
+        "options": [
+          {
+            "value": "unity",
+            "alias": "Unity",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1790059414/listings_assets/metadata/unity.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "unreal_engine",
+            "alias": "Unreal Engine",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1790059442/listings_assets/metadata/unreal_engine.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "fivem",
+            "alias": "FiveM",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1790059280/listings_assets/metadata/fivem.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "roblox",
+            "alias": "Roblox",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/roblox.svg",
+            "imageSource": "own"
+          },
+          {
+            "value": "godot",
+            "alias": "Godot",
+            "aliasSource": "csv",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1790059317/listings_assets/metadata/godot.svg",
+            "imageSource": "own"
+          }
+        ]
+      }
+    ]
+  }
+]
