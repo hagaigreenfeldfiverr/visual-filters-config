@@ -217,7 +217,7 @@
     <div class="radio-group">
       <label class="chk"><input type="radio" name="modeFilter" value="all" /> All</label>
       <label class="chk"><input type="radio" name="modeFilter" value="live" checked /> Live (active)</label>
-      <label class="chk" title="Shows the candidate categories from config.test.js on top of the live ones"><input type="radio" name="modeFilter" value="test" /> Test mode</label>
+      <label class="chk" title="Shows only the proposed candidate categories from config.test.js"><input type="radio" name="modeFilter" value="candidate" /> Candidates</label>
     </div>
     <label class="chk"><input type="checkbox" id="onlyMissingImages" /> Missing images only</label>
     <span class="count" id="count"></span>
@@ -3824,6 +3824,7 @@
           // test: live + candidates, i.e. config.test.js as a whole.
           if (mode === 'live' && (cat.status !== 'live' || !cat.active)) return false;
           if (mode === 'all' && cat.status === 'candidate') return false;
+          if (mode === 'candidate' && cat.status !== 'candidate') return false;
           if (onlyMissing && cat.hasImages) return false;
           if (!q) return true;
           if (cat.id.toString().includes(q)) return true;
