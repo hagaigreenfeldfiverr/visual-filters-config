@@ -11,6 +11,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -90,6 +91,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -148,6 +150,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -192,6 +195,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -278,6 +282,7 @@
     "categoryStatus": "closed",
     "visualFilterStatus": "inactive",
     "liveCheckFound": false,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -364,6 +369,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "inactive",
     "liveCheckFound": false,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -415,6 +421,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -466,6 +473,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -585,6 +593,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -629,6 +638,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -673,6 +683,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -717,6 +728,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -754,6 +766,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -791,6 +804,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -828,6 +842,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -865,6 +880,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -902,6 +918,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -939,6 +956,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -976,6 +994,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "inactive",
     "liveCheckFound": false,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1013,6 +1032,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1057,6 +1077,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1143,6 +1164,7 @@
     "categoryStatus": "closed",
     "visualFilterStatus": "inactive",
     "liveCheckFound": false,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1201,6 +1223,7 @@
     "categoryStatus": "closed",
     "visualFilterStatus": "inactive",
     "liveCheckFound": false,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1259,6 +1282,7 @@
     "categoryStatus": "closed",
     "visualFilterStatus": "inactive",
     "liveCheckFound": false,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1317,6 +1341,7 @@
     "categoryStatus": "closed",
     "visualFilterStatus": "inactive",
     "liveCheckFound": false,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1375,6 +1400,7 @@
     "categoryStatus": "closed",
     "visualFilterStatus": "inactive",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1433,6 +1459,7 @@
     "categoryStatus": "closed",
     "visualFilterStatus": "inactive",
     "liveCheckFound": false,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1539,6 +1566,7 @@
     "categoryStatus": "closed",
     "visualFilterStatus": "inactive",
     "liveCheckFound": false,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1597,6 +1625,7 @@
     "categoryStatus": "closed",
     "visualFilterStatus": "inactive",
     "liveCheckFound": false,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1703,6 +1732,7 @@
     "categoryStatus": "closed",
     "visualFilterStatus": "inactive",
     "liveCheckFound": false,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1768,6 +1798,7 @@
     "categoryStatus": "closed",
     "visualFilterStatus": "inactive",
     "liveCheckFound": false,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1833,6 +1864,7 @@
     "categoryStatus": "closed",
     "visualFilterStatus": "inactive",
     "liveCheckFound": false,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1898,6 +1930,7 @@
     "categoryStatus": "closed",
     "visualFilterStatus": "inactive",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1963,6 +1996,7 @@
     "categoryStatus": "closed",
     "visualFilterStatus": "inactive",
     "liveCheckFound": false,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2028,6 +2062,7 @@
     "categoryStatus": "closed",
     "visualFilterStatus": "inactive",
     "liveCheckFound": false,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2093,6 +2128,7 @@
     "categoryStatus": "closed",
     "visualFilterStatus": "inactive",
     "liveCheckFound": false,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2158,6 +2194,7 @@
     "categoryStatus": "closed",
     "visualFilterStatus": "inactive",
     "liveCheckFound": false,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2216,6 +2253,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2274,6 +2312,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2332,6 +2371,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2390,6 +2430,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2448,6 +2489,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2492,6 +2534,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2612,6 +2655,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "inactive",
     "liveCheckFound": false,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2670,6 +2714,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2728,6 +2773,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2772,6 +2818,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "inactive",
     "liveCheckFound": false,
+    "codePredictsShow": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2837,6 +2884,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2888,6 +2936,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2946,6 +2995,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2997,6 +3047,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "inactive",
     "liveCheckFound": false,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -3055,6 +3106,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "inactive",
     "liveCheckFound": false,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -3168,6 +3220,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -3233,6 +3286,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -3319,6 +3373,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -3384,6 +3439,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -3491,6 +3547,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
+    "codePredictsShow": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -3576,6 +3633,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "candidate",
     "liveCheckFound": false,
+    "codePredictsShow": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -3627,6 +3685,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "candidate",
     "liveCheckFound": false,
+    "codePredictsShow": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -3671,6 +3730,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "candidate",
     "liveCheckFound": false,
+    "codePredictsShow": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -3729,6 +3789,7 @@
     "categoryStatus": "live",
     "visualFilterStatus": "candidate",
     "liveCheckFound": false,
+    "codePredictsShow": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [

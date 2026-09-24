@@ -142,6 +142,15 @@ function buildRows(filtersConfig, status) {
         const resolvedCount = allOptions.filter((o) => o.image).length;
         const active = status === 'live' ? activeIds.has(String(cat.id)) : false;
 
+        // What the actual production code predicts, per listings_sphinx
+        // apps/search_perseus/src/apps/listings/experiments/serviceTilesSC/utils.js:
+        //   shouldShowVisualFilters = !isTouch && (isIdTestedOut(subCategoryId) || isIdTestedOut(nestedSubCategoryId))
+        // i.e. constants.js's flag list is checked on BOTH the leaf id and its parent SC id —
+        // an NSC inherits the flag from its SC. This is the real gate, independent of the
+        // "closed" DB status or the "hasn't shipped yet" candidate status below.
+        const parentScId = lookup && lookup.level === 'NSC' ? lookup.sc_id : null;
+        const codePredictsShow = activeIds.has(String(cat.id)) || (parentScId != null && activeIds.has(String(parentScId)));
+
         // Category status: is this leaf actually live at the taxonomy DB level
         // (sub_categories/nested_sub_categories visible + available_to_sellers,
         // walking up to the parent SC for NSCs). Independent of visual filters —
@@ -172,6 +181,7 @@ function buildRows(filtersConfig, status) {
             categoryStatus,
             visualFilterStatus,
             liveCheckFound,
+            codePredictsShow,
             hasImages: resolvedCount === allOptions.length,
             hasPartialImages: resolvedCount > 0 && resolvedCount < allOptions.length,
             filters,
