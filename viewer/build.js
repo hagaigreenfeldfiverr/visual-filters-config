@@ -195,7 +195,21 @@ const candidateConfig = getVisualFiltersTestConfig().filter((c) => !liveIds.has(
 
 const liveRows = buildRows(liveConfig, 'live');
 const candidateRows = buildRows(candidateConfig, 'candidate');
-const rows = [...liveRows, ...candidateRows];
+const allRows = [...liveRows, ...candidateRows];
+
+// config.js itself has a real duplicate entry for id '158' (two identical objects,
+// lines 211 and 469 as of writing) — a genuine copy-paste bug in the shipped file,
+// left untouched since these local files are an unmodified copy of production code.
+// Dedupe for display so the viewer doesn't render the same category twice; the
+// surviving row is flagged so the underlying duplication stays visible.
+const idCounts = {};
+allRows.forEach((r) => { idCounts[r.id] = (idCounts[r.id] || 0) + 1; });
+const seenIds = new Set();
+const rows = allRows.filter((r) => {
+    if (seenIds.has(r.id)) return false;
+    seenIds.add(r.id);
+    return true;
+}).map((r) => ({ ...r, duplicateCountInSource: idCounts[r.id] }));
 
 fs.writeFileSync(path.join(__dirname, 'data.json'), JSON.stringify(rows, null, 2));
 console.log(`Wrote ${liveRows.length} live + ${candidateRows.length} candidate categories to data.json`);
