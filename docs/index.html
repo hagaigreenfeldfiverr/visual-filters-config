@@ -61,6 +61,15 @@
     gap: 6px;
     cursor: pointer;
   }
+  .radio-group {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: #f7f7f8;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 7px 14px;
+  }
   .count { font-size: 13px; color: var(--muted); margin-left: auto; }
 
   .grid-header, .cat-header {
@@ -205,14 +214,12 @@
   </details>
   <div class="controls">
     <input type="text" id="search" placeholder="Search by category ID, name, attribute, or value..." />
-    <select id="statusFilter">
-      <option value="all">All statuses</option>
-      <option value="live">Live only</option>
-      <option value="candidate">Candidates only</option>
-    </select>
-    <label class="chk"><input type="checkbox" id="onlyActive" checked /> Active only</label>
+    <div class="radio-group">
+      <label class="chk"><input type="radio" name="modeFilter" value="all" /> All</label>
+      <label class="chk"><input type="radio" name="modeFilter" value="live" checked /> Live (active)</label>
+      <label class="chk" title="Shows the candidate categories from config.test.js on top of the live ones"><input type="radio" name="modeFilter" value="test" /> Test mode</label>
+    </div>
     <label class="chk"><input type="checkbox" id="onlyMissingImages" /> Missing images only</label>
-    <label class="chk" title="Candidates (proposed, not-yet-live categories) are hidden unless Dev mode is on"><input type="checkbox" id="devMode" /> Dev mode (show candidates)</label>
     <span class="count" id="count"></span>
   </div>
   <div class="grid-header">
@@ -3757,10 +3764,8 @@
 
       const rowsEl = document.getElementById('rows');
       const searchEl = document.getElementById('search');
-      const statusFilterEl = document.getElementById('statusFilter');
-      const onlyActiveEl = document.getElementById('onlyActive');
+      const modeFilterEls = document.querySelectorAll('input[name="modeFilter"]');
       const onlyMissingEl = document.getElementById('onlyMissingImages');
-      const devModeEl = document.getElementById('devMode');
       const countEl = document.getElementById('count');
 
       function optionHtml(opt) {
@@ -3789,7 +3794,7 @@
 
         const statusBadge = cat.status === 'candidate'
           ? '<span class="badge candidate">Candidate</span>'
-          : '<span class="badge active">Live</span>';
+          : '';
 
         return `
           <div class="cat-card${cat.status === 'candidate' ? ' candidate-row' : ''}">
@@ -3810,15 +3815,15 @@
 
       function render() {
         const q = searchEl.value.trim().toLowerCase();
-        const statusFilter = statusFilterEl.value;
-        const onlyActive = onlyActiveEl.checked;
+        const mode = document.querySelector('input[name="modeFilter"]:checked').value;
         const onlyMissing = onlyMissingEl.checked;
-        const devMode = devModeEl.checked;
 
         const filtered = data.filter(cat => {
-          if (cat.status === 'candidate' && !devMode) return false;
-          if (statusFilter !== 'all' && cat.status !== statusFilter) return false;
-          if (onlyActive && !cat.active) return false;
+          // all: everything, live regardless of active flag, no candidates.
+          // live: only live categories currently active per constants.js.
+          // test: live + candidates, i.e. config.test.js as a whole.
+          if (mode === 'live' && (cat.status !== 'live' || !cat.active)) return false;
+          if (mode === 'all' && cat.status === 'candidate') return false;
           if (onlyMissing && cat.hasImages) return false;
           if (!q) return true;
           if (cat.id.toString().includes(q)) return true;
@@ -3836,10 +3841,8 @@
       }
 
       searchEl.addEventListener('input', render);
-      statusFilterEl.addEventListener('change', render);
-      onlyActiveEl.addEventListener('change', render);
+      modeFilterEls.forEach(el => el.addEventListener('change', render));
       onlyMissingEl.addEventListener('change', render);
-      devModeEl.addEventListener('change', render);
       render();
     }
     main();
