@@ -61,15 +61,44 @@
     gap: 6px;
     cursor: pointer;
   }
-  .radio-group {
+  .msel { position: relative; }
+  .msel-btn {
+    background: #ffffff;
+    border: 1px solid #d1d3d6;
+    color: var(--text);
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    cursor: pointer;
     display: flex;
     align-items: center;
-    gap: 16px;
-    background: #f7f7f8;
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    padding: 7px 14px;
+    gap: 6px;
   }
+  .msel-btn:hover { border-color: var(--accent); }
+  .msel-btn .chev { color: var(--muted); font-size: 10px; }
+  .msel-panel {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    background: #ffffff;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+    padding: 8px;
+    min-width: 160px;
+    z-index: 20;
+  }
+  .msel-panel label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 8px;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .msel-panel label:hover { background: #f5f5f6; }
   .count { font-size: 13px; color: var(--muted); margin-left: auto; }
 
   .grid-header, .cat-header {
@@ -220,10 +249,20 @@
   </details>
   <div class="controls">
     <input type="text" id="search" placeholder="Search by category ID, name, attribute, or value..." />
-    <div class="radio-group">
-      <label class="chk"><input type="radio" name="modeFilter" value="all" /> All</label>
-      <label class="chk"><input type="radio" name="modeFilter" value="live" checked /> Live (active)</label>
-      <label class="chk" title="Shows only the proposed candidate categories from config.test.js"><input type="radio" name="modeFilter" value="candidate" /> Candidates</label>
+    <div class="msel" id="categoryStatusMsel">
+      <button type="button" class="msel-btn" id="categoryStatusBtn">Category status: Live <span class="chev">▾</span></button>
+      <div class="msel-panel" id="categoryStatusPanel" hidden>
+        <label><input type="checkbox" value="live" checked /> Live</label>
+        <label><input type="checkbox" value="closed" /> Closed</label>
+      </div>
+    </div>
+    <div class="msel" id="filterStatusMsel">
+      <button type="button" class="msel-btn" id="filterStatusBtn">Filter status: Active <span class="chev">▾</span></button>
+      <div class="msel-panel" id="filterStatusPanel" hidden>
+        <label><input type="checkbox" value="active" checked /> Active</label>
+        <label><input type="checkbox" value="inactive" /> Inactive</label>
+        <label><input type="checkbox" value="candidate" /> Candidate</label>
+      </div>
     </div>
     <label class="chk"><input type="checkbox" id="onlyMissingImages" /> Missing images only</label>
     <span class="count" id="count"></span>
@@ -1326,7 +1365,7 @@
         ]
       }
     ],
-    "duplicateCountInSource": 2
+    "duplicateCountInSource": 1
   },
   {
     "id": "329",
@@ -4091,9 +4130,41 @@
 
       const rowsEl = document.getElementById('rows');
       const searchEl = document.getElementById('search');
-      const modeFilterEls = document.querySelectorAll('input[name="modeFilter"]');
       const onlyMissingEl = document.getElementById('onlyMissingImages');
       const countEl = document.getElementById('count');
+
+      function setupMultiselect(selId, btnId, panelId, labelPrefix, allLabel) {
+        const msel = document.getElementById(selId);
+        const btn = document.getElementById(btnId);
+        const panel = document.getElementById(panelId);
+        const checkboxes = Array.from(panel.querySelectorAll('input[type="checkbox"]'));
+
+        function updateLabel() {
+          const checked = checkboxes.filter(c => c.checked);
+          let text;
+          if (checked.length === 0) text = `${labelPrefix}: none`;
+          else if (checked.length === checkboxes.length) text = `${labelPrefix}: ${allLabel}`;
+          else text = `${labelPrefix}: ${checked.map(c => c.value).join(', ')}`;
+          btn.innerHTML = `${text} <span class="chev">▾</span>`;
+        }
+
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const isOpen = !panel.hidden;
+          document.querySelectorAll('.msel-panel').forEach(p => p.hidden = true);
+          panel.hidden = isOpen;
+        });
+        checkboxes.forEach(cb => cb.addEventListener('change', () => { updateLabel(); render(); }));
+        document.addEventListener('click', (e) => {
+          if (!msel.contains(e.target)) panel.hidden = true;
+        });
+
+        updateLabel();
+        return () => checkboxes.filter(c => c.checked).map(c => c.value);
+      }
+
+      const getCategoryStatusFilter = setupMultiselect('categoryStatusMsel', 'categoryStatusBtn', 'categoryStatusPanel', 'Category status', 'Live, Closed');
+      const getFilterStatusFilter = setupMultiselect('filterStatusMsel', 'filterStatusBtn', 'filterStatusPanel', 'Filter status', 'Active, Inactive, Candidate');
 
       function optionHtml(opt) {
         const parentStar = opt.imageSource === 'parent-sc' ? '<span style="color:var(--muted)">*</span>' : '';
@@ -4149,16 +4220,13 @@
 
       function render() {
         const q = searchEl.value.trim().toLowerCase();
-        const mode = document.querySelector('input[name="modeFilter"]:checked').value;
+        const categoryStatuses = getCategoryStatusFilter();
+        const filterStatuses = getFilterStatusFilter();
         const onlyMissing = onlyMissingEl.checked;
 
         const filtered = data.filter(cat => {
-          // all: every shipped (config.js) category regardless of DB status, no candidates.
-          // live: only shipped categories that are also Live per the taxonomy DB.
-          // candidate: only proposed categories from config.test.js.
-          if (mode === 'live' && (cat.status !== 'live' || cat.categoryStatus !== 'live')) return false;
-          if (mode === 'all' && cat.status === 'candidate') return false;
-          if (mode === 'candidate' && cat.status !== 'candidate') return false;
+          if (!categoryStatuses.includes(cat.categoryStatus)) return false;
+          if (!filterStatuses.includes(cat.visualFilterStatus)) return false;
           if (onlyMissing && cat.hasImages) return false;
           if (!q) return true;
           if (cat.id.toString().includes(q)) return true;
@@ -4176,7 +4244,6 @@
       }
 
       searchEl.addEventListener('input', render);
-      modeFilterEls.forEach(el => el.addEventListener('change', render));
       onlyMissingEl.addEventListener('change', render);
       render();
     }

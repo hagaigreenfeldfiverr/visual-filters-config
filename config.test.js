@@ -466,15 +466,6 @@ const getVisualFiltersConfig = () => [
         ],
     },
     {
-        id: '158',
-        filters: [
-            {
-                id: 'gender',
-                options: ['female', 'male', 'non_binary'],
-            },
-        ],
-    },
-    {
         id: '416',
         filters: [
             {
