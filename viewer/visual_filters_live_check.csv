@@ -1,0 +1,61 @@
+id,status,vertical,category,url,visual_filters_found,heading_or_note
+16,live,Music & Audio,Voice Over,https://www.fiverr.com/categories/music-audio/voice-overs,YES,Select voice over language
+49,live,Graphics & Design,Logo Design,https://www.fiverr.com/categories/graphics-design/creative-logo-design,YES,Select logo style
+50,live,Graphics & Design,Illustration,https://www.fiverr.com/categories/graphics-design/digital-illustration,YES,Select illustration style
+51,candidate,Graphics & Design,Book Design,https://www.fiverr.com/categories/graphics-design/book-design,NO,candidate; page shows subcategory tiles instead
+54,live,Graphics & Design,Presentation Design,https://www.fiverr.com/categories/graphics-design/presentations-design,YES,Select presentation purpose
+99,live,Video & Animation,Video Editing,https://www.fiverr.com/categories/video-animation/video-editing,YES,Select video type
+154,live,Graphics & Design,T-Shirts & Merchandise,https://www.fiverr.com/categories/graphics-design/t-shirts,YES,Select merchandise type
+156,live,Music & Audio,Session Musicians,https://www.fiverr.com/categories/music-audio/session-musicians,NO,"live/active per constants.js but page shows an unrelated grouped-instrument tile row, no 'Select...' strip"
+158,live,Music & Audio,Singers & Vocalists,https://www.fiverr.com/categories/music-audio/singers-vocalists,NO,live/active per constants.js but no visual-filters strip found
+163,live,Writing & Translation,Articles & Blog Posts,https://www.fiverr.com/categories/writing-translation/articles-blogposts,NO,live/active per constants.js but page now shows subcategory tiles (SEO Writing / Informative & Educational Articles) instead of the language filter strip
+235,candidate,Video & Animation,Character Animation,https://www.fiverr.com/categories/video-animation/animated-characters-modeling,NO,candidate
+249,live,Video & Animation,Slideshow Videos,https://www.fiverr.com/categories/video-animation/slideshow-videos,YES,Select slideshow type
+329,live,Video & Animation,Video Ads & Commercials,https://www.fiverr.com/categories/video-animation/short-video-ads,YES,Select platform
+340,live,Graphics & Design,Portraits & Caricatures,https://www.fiverr.com/categories/graphics-design/portraits-and-caricatures,YES,Select illustration style
+371,live,Graphics & Design,Graphics for Streamers,https://www.fiverr.com/categories/graphics-design/graphics-for-streamers,YES,Select asset type
+384,live,Video & Animation,Subtitles & Captions,https://www.fiverr.com/categories/video-animation/subtitles-captions,NO,live/active per constants.js but page shows subcategory tiles instead
+386,live,Graphics & Design,Podcast Cover Art,https://www.fiverr.com/categories/graphics-design/podcast-cover-art,YES,Select cover art style
+392,live,Music & Audio,Songwriting,https://www.fiverr.com/categories/music-audio/songwriters,NO,live/active per constants.js but no visual-filters strip found
+416,live,Programming & Tech,Online Coding Lessons,https://www.fiverr.com/categories/programming-tech/online-coding-lessons,NO,live/active per constants.js but no visual-filters strip found
+512,live,Personal Growth & Hobbies,Game Coaching,https://www.fiverr.com/categories/lifestyle/game-coaching,NO,live/active per constants.js but no visual-filters strip found
+1000,live,Programming & Tech,Website Builders & CMS > Full Website Creation,https://www.fiverr.com/categories/programming-tech/web-cms-services/full-website-creation,NO,live/active per constants.js but no visual-filters strip found
+1001,live,Programming & Tech,Website Builders & CMS > Theme/Plugin Installation,https://www.fiverr.com/categories/programming-tech/web-cms-services/theme-plugin-installation,NO,no visual-filters strip found
+1002,live,Programming & Tech,Website Builders & CMS > Customization,https://www.fiverr.com/categories/programming-tech/web-cms-services/customization,NO,no visual-filters strip found
+1003,live,Programming & Tech,Website Builders & CMS > Bug Fixes,https://www.fiverr.com/categories/programming-tech/web-cms-services/bug-fixes,YES,Select platform
+1004,live,Programming & Tech,Website Builders & CMS > Backup & Migration,https://www.fiverr.com/categories/programming-tech/web-cms-services/backup-cloning-migration,NO,no visual-filters strip found
+1005,live,Programming & Tech,Website Builders & CMS > Performance & Security,https://www.fiverr.com/categories/programming-tech/web-cms-services/performance-security,NO,no visual-filters strip found
+1006,live,Programming & Tech,Website Builders & CMS > Help/Consultation,https://www.fiverr.com/categories/programming-tech/web-cms-services/help-consultation,NO,no visual-filters strip found
+1007,live,Programming & Tech,E-Commerce Development > Full Website Creation,https://www.fiverr.com/categories/programming-tech/ecommerce-services/full-website-creation,NO,no visual-filters strip found
+1008,live,Programming & Tech,E-Commerce Development > Theme/Plugin Installation,https://www.fiverr.com/categories/programming-tech/ecommerce-services/theme-plugin-installation,NO,no visual-filters strip found
+1009,live,Programming & Tech,E-Commerce Development > Customization,https://www.fiverr.com/categories/programming-tech/ecommerce-services/customization,NO,no visual-filters strip found
+1010,live,Programming & Tech,E-Commerce Development > Bug Fixes,https://www.fiverr.com/categories/programming-tech/ecommerce-services/bug-fixes,YES,Select platform
+1011,live,Programming & Tech,E-Commerce Development > Backup & Migration,https://www.fiverr.com/categories/programming-tech/ecommerce-services/backup-cloning-migration,NO,no visual-filters strip found
+1012,live,Programming & Tech,E-Commerce Development > Performance & Security,https://www.fiverr.com/categories/programming-tech/ecommerce-services/performance-security,NO,URL redirected to parent SC page (ecommerce-services) — this NSC has no standalone page
+1013,live,Programming & Tech,E-Commerce Development > Help/Consultation,https://www.fiverr.com/categories/programming-tech/ecommerce-services/help-consultation,NO,no visual-filters strip found
+1029,live,Programming & Tech,Website Builders & CMS > Landing Page,https://www.fiverr.com/categories/programming-tech/web-cms-services/landing-page,NO,no visual-filters strip found
+2060,live,Digital Marketing,Social Media Marketing > Consultation & Audience Research,https://www.fiverr.com/categories/online-marketing/social-marketing/consultation-audience-research,NO,no visual-filters strip found
+2061,live,Digital Marketing,Social Media Marketing > Profile Setup & Integration,https://www.fiverr.com/categories/online-marketing/social-marketing/profile-setup-integration,YES,Select social platform
+2062,live,Digital Marketing,Social Media Marketing > Social Content,https://www.fiverr.com/categories/online-marketing/social-marketing/social-content,YES,Select social platform
+2063,live,Digital Marketing,Social Media Marketing > Social Media Management,https://www.fiverr.com/categories/online-marketing/social-marketing/social-media-management,YES,Select social platform
+2065,live,Digital Marketing,Social Media Marketing > Analytics & Tracking,https://www.fiverr.com/categories/online-marketing/social-marketing/analytics-tracking,YES,Select social platform
+2240,live,Writing & Translation,Book & eBook Writing > Ghostwriting,https://www.fiverr.com/categories/writing-translation/book-and-ebook-writing/ghostwriting,YES,Select language
+2243,candidate,Programming & Tech,Game Development > Full Game Creation,https://www.fiverr.com/categories/programming-tech/game-development/full-game-creation,NO,candidate
+2245,candidate,Programming & Tech,Game Development > Customization,https://www.fiverr.com/categories/programming-tech/game-development/customization,NO,candidate
+2328,live,Video & Animation,Music Videos > Lyric Videos,https://www.fiverr.com/categories/video-animation/music-videos/lyric-videos,YES,Select video type
+2329,live,Video & Animation,Music Videos > Music Visualization,https://www.fiverr.com/categories/video-animation/music-videos/music-visualization,YES,Select video type
+2330,live,Video & Animation,Music Videos > Dance Videos,https://www.fiverr.com/categories/video-animation/music-videos/dance-videos,YES,Select video type
+2331,live,Video & Animation,Music Videos > Narrative-Based Videos,https://www.fiverr.com/categories/video-animation/music-videos/narrative-videos,YES,Select video type
+2332,live,Video & Animation,Music Videos > Performance Videos,https://www.fiverr.com/categories/video-animation/music-videos/performance-videos,YES,Select video type
+2333,live,Video & Animation,Music Videos > Conceptual Videos,https://www.fiverr.com/categories/video-animation/music-videos/conceptual-videos,YES,Select video type
+2341,live,Video & Animation,Music Videos > Anime Music Videos,https://www.fiverr.com/categories/video-animation/music-videos/anime-music-videos,YES,Select video type
+2357,live,Programming & Tech,Development for Streamers > Setup & Installation,https://www.fiverr.com/categories/programming-tech/development-for-streamers/setup-installation,YES,Select software
+2358,live,Programming & Tech,Development for Streamers > Addons & Customization,https://www.fiverr.com/categories/programming-tech/development-for-streamers/addons-customization,NO,no visual-filters strip found
+2412,live,Graphics & Design,Fashion Design > Technical Drawing & Tech Pack,https://www.fiverr.com/categories/graphics-design/fashion-design/technical-drawing,YES,Select item type
+2414,live,Graphics & Design,Fashion Design > Fashion Illustration,https://www.fiverr.com/categories/graphics-design/fashion-design/fashion-illustration,YES,Select item type
+2416,live,Graphics & Design,Fashion Design > Full Design Process,https://www.fiverr.com/categories/graphics-design/fashion-design/full-design-process,YES,Select gender / group
+2441,live,Video & Animation,Animated Explainers > 2D Animated Explainers,https://www.fiverr.com/categories/video-animation/animated-explainer-videos/2d,YES,Select explainer type
+2442,live,Video & Animation,Animated Explainers > 3D Animated Explainers,https://www.fiverr.com/categories/video-animation/animated-explainer-videos/3d,YES,Select explainer type
+2443,live,Video & Animation,Animated Explainers > Isometric Explainers,https://www.fiverr.com/categories/video-animation/animated-explainer-videos/isometric,YES,Select explainer type
+2489,live,Video & Animation,Music Videos > Spotify Canvas,https://www.fiverr.com/categories/video-animation/music-videos/spotify-canvas,NO,no visual-filters strip found
+2619,live,Programming & Tech,Website Maintenance > Bug Fixes,https://www.fiverr.com/categories/programming-tech/website-maintenance/bug-fixes,YES,Select platform
