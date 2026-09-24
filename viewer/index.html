@@ -74,7 +74,7 @@
 
   .grid-header, .cat-header {
     display: grid;
-    grid-template-columns: 160px minmax(300px, 1fr) 70px 100px 90px;
+    grid-template-columns: 160px minmax(280px, 1fr) 70px 130px 150px 90px;
     gap: 12px;
     align-items: start;
   }
@@ -210,9 +210,13 @@
       <span class="id-pill">constants.js</span> (active/tested-out flag) ·
       <span class="id-pill">category_lookup.json</span> (vertical/SC/NSC names, from BigQuery dwh.categories/sub_categories/nested_sub_categories) ·
       <span class="id-pill">config.test.js</span> + <span class="id-pill">imageMapper.test.js</span> + <span class="id-pill">constants.test.js</span> ("test" version — live config with proposed candidates merged in, deliverable as-is) ·
-      <span class="id-pill">metadata_alias.csv</span> (display name per value, matched by Vertical-SC-Nested-attribute-value).
+      <span class="id-pill">metadata_alias.csv</span> (display name per value, matched by Vertical-SC-Nested-attribute-value) ·
+      <span class="id-pill">visual_filters_live_check.csv</span> (manual check of whether the "Select ..." strip actually renders on each live category page).
       <span style="color:var(--muted)">*</span> = icon inherited from parent SC's imageMapper.js entry ·
       <span style="color:var(--inactive)">&dagger;</span> = no alias row in metadata_alias.csv for this value in this category, showing title-cased value id instead.
+      <br />
+      <strong>Category status</strong>: Live = in constants.js flag list, Closed = not in it (candidates: N/A).
+      <strong>Visual filter status</strong>: Active = verified showing on the live page, Candidate = not shipped yet, Inactive = shipped but the strip doesn't render (or unverified).
     </div>
   </details>
   <div class="controls">
@@ -229,7 +233,8 @@
     <div>Vertical</div>
     <div>Category</div>
     <div>ID</div>
-    <div>Active</div>
+    <div>Category status</div>
+    <div>Visual filter status</div>
     <div>Images</div>
   </div>
   <div id="rows"></div>
@@ -246,6 +251,9 @@
     "level": "SC",
     "url": "https://www.fiverr.com/categories/music-audio/session-musicians",
     "active": true,
+    "categoryStatus": "live",
+    "visualFilterStatus": "inactive",
+    "liveCheckFound": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -322,6 +330,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/programming-tech/website-maintenance/bug-fixes",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -377,6 +388,9 @@
     "level": "SC",
     "url": "https://www.fiverr.com/categories/graphics-design/portraits-and-caricatures",
     "active": true,
+    "categoryStatus": "live",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -418,6 +432,9 @@
     "level": "SC",
     "url": "https://www.fiverr.com/categories/graphics-design/t-shirts",
     "active": true,
+    "categoryStatus": "live",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -501,6 +518,9 @@
     "level": "SC",
     "url": "https://www.fiverr.com/categories/lifestyle/game-coaching",
     "active": true,
+    "categoryStatus": "live",
+    "visualFilterStatus": "inactive",
+    "liveCheckFound": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -584,6 +604,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/programming-tech/development-for-streamers/addons-customization",
     "active": true,
+    "categoryStatus": "live",
+    "visualFilterStatus": "inactive",
+    "liveCheckFound": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -632,6 +655,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/programming-tech/development-for-streamers/setup-installation",
     "active": true,
+    "categoryStatus": "live",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -680,6 +706,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/writing-translation/book-and-ebook-writing/ghostwriting",
     "active": true,
+    "categoryStatus": "live",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -796,6 +825,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/video-animation/animated-explainer-videos/3d",
     "active": true,
+    "categoryStatus": "live",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -837,6 +869,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/video-animation/animated-explainer-videos/isometric",
     "active": true,
+    "categoryStatus": "live",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -878,6 +913,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/video-animation/animated-explainer-videos/2d",
     "active": true,
+    "categoryStatus": "live",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -919,6 +957,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/video-animation/music-videos/anime-music-videos",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -953,6 +994,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/video-animation/music-videos/conceptual-videos",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -987,6 +1031,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/video-animation/music-videos/dance-videos",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1021,6 +1068,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/video-animation/music-videos/lyric-videos",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1055,6 +1105,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/video-animation/music-videos/music-visualization",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1089,6 +1142,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/video-animation/music-videos/narrative-videos",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1123,6 +1179,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/video-animation/music-videos/performance-videos",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1157,6 +1216,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/video-animation/music-videos/spotify-canvas",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "inactive",
+    "liveCheckFound": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1191,6 +1253,9 @@
     "level": "SC",
     "url": "https://www.fiverr.com/categories/music-audio/singers-vocalists",
     "active": true,
+    "categoryStatus": "live",
+    "visualFilterStatus": "inactive",
+    "liveCheckFound": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1232,6 +1297,9 @@
     "level": "SC",
     "url": "https://www.fiverr.com/categories/video-animation/short-video-ads",
     "active": true,
+    "categoryStatus": "live",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1315,6 +1383,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/programming-tech/web-cms-services/landing-page",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "inactive",
+    "liveCheckFound": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1370,6 +1441,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/programming-tech/web-cms-services/help-consultation",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "inactive",
+    "liveCheckFound": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1425,6 +1499,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/programming-tech/web-cms-services/performance-security",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "inactive",
+    "liveCheckFound": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1480,6 +1557,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/programming-tech/web-cms-services/backup-cloning-migration",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "inactive",
+    "liveCheckFound": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1535,6 +1615,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/programming-tech/web-cms-services/bug-fixes",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1590,6 +1673,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/programming-tech/web-cms-services/customization",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "inactive",
+    "liveCheckFound": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1693,6 +1779,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/programming-tech/web-cms-services/theme-plugin-installation",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "inactive",
+    "liveCheckFound": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1748,6 +1837,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/programming-tech/web-cms-services/full-website-creation",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "inactive",
+    "liveCheckFound": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1851,6 +1943,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/programming-tech/ecommerce-services/full-website-creation",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "inactive",
+    "liveCheckFound": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1913,6 +2008,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/programming-tech/ecommerce-services/theme-plugin-installation",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "inactive",
+    "liveCheckFound": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1975,6 +2073,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/programming-tech/ecommerce-services/customization",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "inactive",
+    "liveCheckFound": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2037,6 +2138,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/programming-tech/ecommerce-services/bug-fixes",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2099,6 +2203,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/programming-tech/ecommerce-services/backup-cloning-migration",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "inactive",
+    "liveCheckFound": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2161,6 +2268,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/programming-tech/ecommerce-services/performance-security",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "inactive",
+    "liveCheckFound": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2223,6 +2333,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/programming-tech/ecommerce-services/help-consultation",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "inactive",
+    "liveCheckFound": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2285,6 +2398,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/online-marketing/social-marketing/consultation-audience-research",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "inactive",
+    "liveCheckFound": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2340,6 +2456,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/online-marketing/social-marketing/profile-setup-integration",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2395,6 +2514,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/online-marketing/social-marketing/social-content",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2450,6 +2572,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/online-marketing/social-marketing/social-media-management",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2505,6 +2630,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/online-marketing/social-marketing/analytics-tracking",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2560,6 +2688,9 @@
     "level": "SC",
     "url": "https://www.fiverr.com/categories/graphics-design/podcast-cover-art",
     "active": true,
+    "categoryStatus": "live",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2601,6 +2732,9 @@
     "level": "SC",
     "url": "https://www.fiverr.com/categories/graphics-design/digital-illustration",
     "active": true,
+    "categoryStatus": "live",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2718,6 +2852,9 @@
     "level": "SC",
     "url": "https://www.fiverr.com/categories/music-audio/songwriters",
     "active": true,
+    "categoryStatus": "live",
+    "visualFilterStatus": "inactive",
+    "liveCheckFound": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2773,6 +2910,9 @@
     "level": "SC",
     "url": "https://www.fiverr.com/categories/video-animation/slideshow-videos",
     "active": true,
+    "categoryStatus": "live",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2828,6 +2968,9 @@
     "level": "SC",
     "url": "https://www.fiverr.com/categories/music-audio/singers-vocalists",
     "active": true,
+    "categoryStatus": "live",
+    "visualFilterStatus": "inactive",
+    "liveCheckFound": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2869,6 +3012,9 @@
     "level": "SC",
     "url": "https://www.fiverr.com/categories/programming-tech/online-coding-lessons",
     "active": false,
+    "categoryStatus": "closed",
+    "visualFilterStatus": "inactive",
+    "liveCheckFound": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2931,6 +3077,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/graphics-design/fashion-design/full-design-process",
     "active": true,
+    "categoryStatus": "live",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -2979,6 +3128,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/graphics-design/fashion-design/fashion-illustration",
     "active": true,
+    "categoryStatus": "live",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -3034,6 +3186,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/graphics-design/fashion-design/technical-drawing",
     "active": true,
+    "categoryStatus": "live",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -3082,6 +3237,9 @@
     "level": "SC",
     "url": "https://www.fiverr.com/categories/video-animation/subtitles-captions",
     "active": true,
+    "categoryStatus": "live",
+    "visualFilterStatus": "inactive",
+    "liveCheckFound": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -3137,6 +3295,9 @@
     "level": "SC",
     "url": "https://www.fiverr.com/categories/writing-translation/articles-blogposts",
     "active": true,
+    "categoryStatus": "live",
+    "visualFilterStatus": "inactive",
+    "liveCheckFound": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -3247,6 +3408,9 @@
     "level": "SC",
     "url": "https://www.fiverr.com/categories/graphics-design/presentations-design",
     "active": true,
+    "categoryStatus": "live",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -3309,6 +3473,9 @@
     "level": "SC",
     "url": "https://www.fiverr.com/categories/graphics-design/creative-logo-design",
     "active": true,
+    "categoryStatus": "live",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -3392,6 +3559,9 @@
     "level": "SC",
     "url": "https://www.fiverr.com/categories/graphics-design/graphics-for-streamers",
     "active": true,
+    "categoryStatus": "live",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -3454,6 +3624,9 @@
     "level": "SC",
     "url": "https://www.fiverr.com/categories/video-animation/video-editing",
     "active": true,
+    "categoryStatus": "live",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -3558,6 +3731,9 @@
     "level": "SC",
     "url": "https://www.fiverr.com/categories/music-audio/voice-overs",
     "active": true,
+    "categoryStatus": "live",
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -3640,6 +3816,9 @@
     "level": "SC",
     "url": "https://www.fiverr.com/categories/graphics-design/book-design",
     "active": false,
+    "categoryStatus": null,
+    "visualFilterStatus": "candidate",
+    "liveCheckFound": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -3688,6 +3867,9 @@
     "level": "SC",
     "url": "https://www.fiverr.com/categories/video-animation/animated-characters-modeling",
     "active": false,
+    "categoryStatus": null,
+    "visualFilterStatus": "candidate",
+    "liveCheckFound": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -3729,6 +3911,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/programming-tech/game-development/full-game-creation",
     "active": false,
+    "categoryStatus": null,
+    "visualFilterStatus": "candidate",
+    "liveCheckFound": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -3784,6 +3969,9 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/programming-tech/game-development/customization",
     "active": false,
+    "categoryStatus": null,
+    "visualFilterStatus": "candidate",
+    "liveCheckFound": false,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -3855,19 +4043,23 @@
           ? `${cat.sc} <span style="color:var(--muted)">›</span> ${cat.nsc}`
           : cat.sc;
 
-        const candidateBadge = cat.status === 'candidate'
-          ? ' <span class="badge candidate">Candidate</span>'
-          : '';
+        const categoryStatusBadge = cat.categoryStatus === 'live'
+          ? '<span class="badge active">Live</span>'
+          : cat.categoryStatus === 'closed'
+            ? '<span class="badge inactive">Closed</span>'
+            : '<span class="badge candidate">N/A</span>';
+
+        const visualFilterStatusLabel = { active: 'Active', candidate: 'Candidate', inactive: 'Inactive' }[cat.visualFilterStatus];
+        const visualFilterStatusBadge = `<span class="badge ${cat.visualFilterStatus}">${visualFilterStatusLabel}</span>`;
 
         return `
           <div class="cat-card${cat.status === 'candidate' ? ' candidate-row' : ''}">
             <div class="cat-header">
               <div class="cat-vertical">${cat.vertical || '<span style="color:var(--inactive)">Unknown</span>'}</div>
-              <div><div class="cat-name">${cat.url ? `<a href="${cat.url}" target="_blank" rel="noopener">${categoryLabel}</a>` : categoryLabel}${candidateBadge}</div><div style="color:var(--muted);font-size:11px">${cat.level || ''}</div></div>
+              <div><div class="cat-name">${cat.url ? `<a href="${cat.url}" target="_blank" rel="noopener">${categoryLabel}</a>` : categoryLabel}</div><div style="color:var(--muted);font-size:11px">${cat.level || ''}</div></div>
               <div><span class="id-pill">${cat.id}</span></div>
-              <div>${cat.status === 'candidate'
-                ? '<span class="badge candidate">N/A</span>'
-                : `<span class="badge ${cat.active ? 'active' : 'inactive'}">${cat.active ? 'Active' : 'Not in flag list'}</span>`}</div>
+              <div>${categoryStatusBadge}</div>
+              <div>${visualFilterStatusBadge}</div>
               <div>${cat.hasImages ? '<span class="badge active">Mapped</span>' : '<span class="badge inactive">None</span>'}</div>
             </div>
             <div class="cat-attrs">${attrsHtml}</div>

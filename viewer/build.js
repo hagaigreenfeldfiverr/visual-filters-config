@@ -96,6 +96,19 @@ function titleCaseFallback(value) {
         .join(' ');
 }
 
+// Manual live-site check (see viewer/visual_filters_live_check.csv): did the
+// "Select ..." visual-filters strip actually render on the category page.
+const liveCheckCsvText = fs.readFileSync(path.join(__dirname, 'visual_filters_live_check.csv'), 'utf8');
+const liveCheckRows = parseCsv(liveCheckCsvText);
+const liveCheckHeader = liveCheckRows[0];
+const lcIdIdx = liveCheckHeader.indexOf('id');
+const lcFoundIdx = liveCheckHeader.indexOf('visual_filters_found');
+const liveCheckById = new Map();
+for (let i = 1; i < liveCheckRows.length; i++) {
+    const r = liveCheckRows[i];
+    if (r[lcIdIdx]) liveCheckById.set(r[lcIdIdx], r[lcFoundIdx] === 'YES');
+}
+
 // imageMapper.js sometimes keys icons by the parent SC id instead of the NSC id
 // that config.js actually attaches filters to (e.g. Fashion Design's `clothing`
 // icon lives under SC 441, while config.js uses NSCs 2412/2414/2416). Fall back
@@ -127,6 +140,17 @@ function buildRows(filtersConfig, status) {
 
         const allOptions = filters.flatMap((f) => f.options);
         const resolvedCount = allOptions.filter((o) => o.image).length;
+        const active = status === 'live' ? activeIds.has(String(cat.id)) : false;
+
+        // Category status: is this leaf in the constants.js flag list at all.
+        // Only meaningful for live categories — candidates aren't shipped yet.
+        const categoryStatus = status === 'candidate' ? null : (active ? 'live' : 'closed');
+
+        // Visual filter status: candidate (not shipped) > active (verified showing
+        // on the live page per visual_filters_live_check.csv) > inactive (shipped
+        // but the strip doesn't actually render, or hasn't been verified).
+        const liveCheckFound = liveCheckById.has(String(cat.id)) ? liveCheckById.get(String(cat.id)) : null;
+        const visualFilterStatus = status === 'candidate' ? 'candidate' : (liveCheckFound ? 'active' : 'inactive');
 
         return {
             id: cat.id,
@@ -136,7 +160,10 @@ function buildRows(filtersConfig, status) {
             nsc: lookup ? lookup.nsc : null,
             level: lookup ? lookup.level : null,
             url: lookup ? lookup.url : null,
-            active: status === 'live' ? activeIds.has(String(cat.id)) : false,
+            active,
+            categoryStatus,
+            visualFilterStatus,
+            liveCheckFound,
             hasImages: resolvedCount === allOptions.length,
             hasPartialImages: resolvedCount > 0 && resolvedCount < allOptions.length,
             filters,
