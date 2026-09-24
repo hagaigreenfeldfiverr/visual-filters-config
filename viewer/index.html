@@ -120,15 +120,15 @@
     background: var(--bg);
   }
   .cat-card {
-    border-bottom: 1px solid var(--border);
+    border-bottom: 10px solid var(--border);
     padding: 14px 12px;
     font-size: 13px;
   }
   .cat-card:hover { background: #fafafa; }
   .cat-name { font-weight: 700; font-size: 16px; color: var(--text); white-space: nowrap; }
-  .cat-vertical { font-weight: 700; }
-  .cat-name a { color: inherit; }
-  .cat-name a:hover { color: var(--accent); text-decoration: underline; }
+  .cat-vertical { font-weight: 700; font-size: 16px; }
+  .cat-name a { color: inherit; text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 3px; }
+  .cat-name a:hover { color: var(--accent); text-decoration-color: var(--accent); }
   .cat-attrs { margin-top: 14px; }
   .badge {
     display: inline-block;
@@ -163,7 +163,7 @@
     font-weight: 600;
     color: var(--accent);
     margin-bottom: 4px;
-    font-size: 12px;
+    font-size: 15px;
   }
   .attr-name .tile-size {
     color: var(--muted);
@@ -4208,8 +4208,8 @@
           <div class="cat-card${cat.status === 'candidate' ? ' candidate-row' : ''}">
             <div class="cat-header">
               <div class="cat-vertical">${cat.vertical || '<span style="color:var(--inactive)">Unknown</span>'}</div>
-              <div><div class="cat-name">${cat.url ? `<a href="${cat.url}" target="_blank" rel="noopener">${categoryLabel}</a>` : categoryLabel}${cat.duplicateCountInSource > 1 ? ` <span class="badge inactive" title="This id appears ${cat.duplicateCountInSource} times as an identical entry in config.js — a copy-paste bug in the source file, deduped here for display">Duplicate in config.js ×${cat.duplicateCountInSource}</span>` : ''}</div><div style="color:var(--muted);font-size:11px">${cat.level || ''}</div></div>
-              <div><span class="id-pill">${cat.id}</span></div>
+              <div><div class="cat-name">${cat.url ? `<a href="${cat.url}" target="_blank" rel="noopener">${categoryLabel}</a>` : categoryLabel}${cat.duplicateCountInSource > 1 ? ` <span class="badge inactive" title="This id appears ${cat.duplicateCountInSource} times as an identical entry in config.js — a copy-paste bug in the source file, deduped here for display">Duplicate in config.js ×${cat.duplicateCountInSource}</span>` : ''}</div></div>
+              <div><span class="id-pill">${cat.id}</span> <span style="color:var(--muted);font-size:11px">${cat.level || ''}</span></div>
               <div>${categoryStatusBadge}</div>
               <div>${visualFilterStatusBadge}</div>
               <div>${codeFlagBadge}</div>
