@@ -142,15 +142,23 @@ function buildRows(filtersConfig, status) {
         const resolvedCount = allOptions.filter((o) => o.image).length;
         const active = status === 'live' ? activeIds.has(String(cat.id)) : false;
 
-        // Category status: is this leaf in the constants.js flag list at all.
-        // Only meaningful for live categories — candidates aren't shipped yet.
-        const categoryStatus = status === 'candidate' ? null : (active ? 'live' : 'closed');
+        // Category status: is this leaf actually live at the taxonomy DB level
+        // (sub_categories/nested_sub_categories visible + available_to_sellers,
+        // walking up to the parent SC for NSCs). Independent of visual filters —
+        // a candidate can still be a live category with no filters configured yet.
+        const categoryStatus = lookup && typeof lookup.db_live === 'boolean'
+            ? (lookup.db_live ? 'live' : 'closed')
+            : null;
 
         // Visual filter status: candidate (not shipped) > active (verified showing
         // on the live page per visual_filters_live_check.csv) > inactive (shipped
-        // but the strip doesn't actually render, or hasn't been verified).
+        // but the strip doesn't actually render, or hasn't been verified). A closed
+        // category is always inactive, even if the live check happened to still find
+        // the strip rendering (e.g. stale rollout/caching) — DB visibility wins.
         const liveCheckFound = liveCheckById.has(String(cat.id)) ? liveCheckById.get(String(cat.id)) : null;
-        const visualFilterStatus = status === 'candidate' ? 'candidate' : (liveCheckFound ? 'active' : 'inactive');
+        const visualFilterStatus = status === 'candidate'
+            ? 'candidate'
+            : (categoryStatus === 'closed' ? 'inactive' : (liveCheckFound ? 'active' : 'inactive'));
 
         return {
             id: cat.id,

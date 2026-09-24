@@ -7,7 +7,8 @@
     "vertical_slug": "music-audio",
     "sc_slug": "voice-overs",
     "nsc_slug": null,
-    "url": "https://www.fiverr.com/categories/music-audio/voice-overs"
+    "url": "https://www.fiverr.com/categories/music-audio/voice-overs",
+    "db_live": true
   },
   "49": {
     "level": "SC",
@@ -17,7 +18,8 @@
     "vertical_slug": "graphics-design",
     "sc_slug": "creative-logo-design",
     "nsc_slug": null,
-    "url": "https://www.fiverr.com/categories/graphics-design/creative-logo-design"
+    "url": "https://www.fiverr.com/categories/graphics-design/creative-logo-design",
+    "db_live": true
   },
   "50": {
     "level": "SC",
@@ -27,7 +29,8 @@
     "vertical_slug": "graphics-design",
     "sc_slug": "digital-illustration",
     "nsc_slug": null,
-    "url": "https://www.fiverr.com/categories/graphics-design/digital-illustration"
+    "url": "https://www.fiverr.com/categories/graphics-design/digital-illustration",
+    "db_live": true
   },
   "54": {
     "level": "SC",
@@ -37,7 +40,8 @@
     "vertical_slug": "graphics-design",
     "sc_slug": "presentations-design",
     "nsc_slug": null,
-    "url": "https://www.fiverr.com/categories/graphics-design/presentations-design"
+    "url": "https://www.fiverr.com/categories/graphics-design/presentations-design",
+    "db_live": true
   },
   "99": {
     "level": "SC",
@@ -47,7 +51,8 @@
     "vertical_slug": "video-animation",
     "sc_slug": "video-editing",
     "nsc_slug": null,
-    "url": "https://www.fiverr.com/categories/video-animation/video-editing"
+    "url": "https://www.fiverr.com/categories/video-animation/video-editing",
+    "db_live": true
   },
   "154": {
     "level": "SC",
@@ -57,7 +62,8 @@
     "vertical_slug": "graphics-design",
     "sc_slug": "t-shirts",
     "nsc_slug": null,
-    "url": "https://www.fiverr.com/categories/graphics-design/t-shirts"
+    "url": "https://www.fiverr.com/categories/graphics-design/t-shirts",
+    "db_live": true
   },
   "156": {
     "level": "SC",
@@ -67,7 +73,8 @@
     "vertical_slug": "music-audio",
     "sc_slug": "session-musicians",
     "nsc_slug": null,
-    "url": "https://www.fiverr.com/categories/music-audio/session-musicians"
+    "url": "https://www.fiverr.com/categories/music-audio/session-musicians",
+    "db_live": true
   },
   "158": {
     "level": "SC",
@@ -77,7 +84,8 @@
     "vertical_slug": "music-audio",
     "sc_slug": "singers-vocalists",
     "nsc_slug": null,
-    "url": "https://www.fiverr.com/categories/music-audio/singers-vocalists"
+    "url": "https://www.fiverr.com/categories/music-audio/singers-vocalists",
+    "db_live": true
   },
   "163": {
     "level": "SC",
@@ -87,7 +95,8 @@
     "vertical_slug": "writing-translation",
     "sc_slug": "articles-blogposts",
     "nsc_slug": null,
-    "url": "https://www.fiverr.com/categories/writing-translation/articles-blogposts"
+    "url": "https://www.fiverr.com/categories/writing-translation/articles-blogposts",
+    "db_live": true
   },
   "249": {
     "level": "SC",
@@ -97,7 +106,8 @@
     "vertical_slug": "video-animation",
     "sc_slug": "slideshow-videos",
     "nsc_slug": null,
-    "url": "https://www.fiverr.com/categories/video-animation/slideshow-videos"
+    "url": "https://www.fiverr.com/categories/video-animation/slideshow-videos",
+    "db_live": true
   },
   "329": {
     "level": "SC",
@@ -107,7 +117,8 @@
     "vertical_slug": "video-animation",
     "sc_slug": "short-video-ads",
     "nsc_slug": null,
-    "url": "https://www.fiverr.com/categories/video-animation/short-video-ads"
+    "url": "https://www.fiverr.com/categories/video-animation/short-video-ads",
+    "db_live": true
   },
   "340": {
     "level": "SC",
@@ -117,7 +128,8 @@
     "vertical_slug": "graphics-design",
     "sc_slug": "portraits-and-caricatures",
     "nsc_slug": null,
-    "url": "https://www.fiverr.com/categories/graphics-design/portraits-and-caricatures"
+    "url": "https://www.fiverr.com/categories/graphics-design/portraits-and-caricatures",
+    "db_live": true
   },
   "371": {
     "level": "SC",
@@ -127,7 +139,8 @@
     "vertical_slug": "graphics-design",
     "sc_slug": "graphics-for-streamers",
     "nsc_slug": null,
-    "url": "https://www.fiverr.com/categories/graphics-design/graphics-for-streamers"
+    "url": "https://www.fiverr.com/categories/graphics-design/graphics-for-streamers",
+    "db_live": true
   },
   "384": {
     "level": "SC",
@@ -137,7 +150,8 @@
     "vertical_slug": "video-animation",
     "sc_slug": "subtitles-captions",
     "nsc_slug": null,
-    "url": "https://www.fiverr.com/categories/video-animation/subtitles-captions"
+    "url": "https://www.fiverr.com/categories/video-animation/subtitles-captions",
+    "db_live": true
   },
   "386": {
     "level": "SC",
@@ -147,7 +161,8 @@
     "vertical_slug": "graphics-design",
     "sc_slug": "podcast-cover-art",
     "nsc_slug": null,
-    "url": "https://www.fiverr.com/categories/graphics-design/podcast-cover-art"
+    "url": "https://www.fiverr.com/categories/graphics-design/podcast-cover-art",
+    "db_live": true
   },
   "392": {
     "level": "SC",
@@ -157,7 +172,8 @@
     "vertical_slug": "music-audio",
     "sc_slug": "songwriters",
     "nsc_slug": null,
-    "url": "https://www.fiverr.com/categories/music-audio/songwriters"
+    "url": "https://www.fiverr.com/categories/music-audio/songwriters",
+    "db_live": true
   },
   "416": {
     "level": "SC",
@@ -167,7 +183,8 @@
     "vertical_slug": "programming-tech",
     "sc_slug": "online-coding-lessons",
     "nsc_slug": null,
-    "url": "https://www.fiverr.com/categories/programming-tech/online-coding-lessons"
+    "url": "https://www.fiverr.com/categories/programming-tech/online-coding-lessons",
+    "db_live": true
   },
   "512": {
     "level": "SC",
@@ -177,7 +194,8 @@
     "vertical_slug": "lifestyle",
     "sc_slug": "game-coaching",
     "nsc_slug": null,
-    "url": "https://www.fiverr.com/categories/lifestyle/game-coaching"
+    "url": "https://www.fiverr.com/categories/lifestyle/game-coaching",
+    "db_live": false
   },
   "1000": {
     "level": "NSC",
@@ -189,7 +207,8 @@
     "vertical_slug": "programming-tech",
     "sc_slug": "web-cms-services",
     "nsc_slug": "full-website-creation",
-    "url": "https://www.fiverr.com/categories/programming-tech/web-cms-services/full-website-creation"
+    "url": "https://www.fiverr.com/categories/programming-tech/web-cms-services/full-website-creation",
+    "db_live": false
   },
   "1001": {
     "level": "NSC",
@@ -201,7 +220,8 @@
     "vertical_slug": "programming-tech",
     "sc_slug": "web-cms-services",
     "nsc_slug": "theme-plugin-installation",
-    "url": "https://www.fiverr.com/categories/programming-tech/web-cms-services/theme-plugin-installation"
+    "url": "https://www.fiverr.com/categories/programming-tech/web-cms-services/theme-plugin-installation",
+    "db_live": false
   },
   "1002": {
     "level": "NSC",
@@ -213,7 +233,8 @@
     "vertical_slug": "programming-tech",
     "sc_slug": "web-cms-services",
     "nsc_slug": "customization",
-    "url": "https://www.fiverr.com/categories/programming-tech/web-cms-services/customization"
+    "url": "https://www.fiverr.com/categories/programming-tech/web-cms-services/customization",
+    "db_live": false
   },
   "1003": {
     "level": "NSC",
@@ -225,7 +246,8 @@
     "vertical_slug": "programming-tech",
     "sc_slug": "web-cms-services",
     "nsc_slug": "bug-fixes",
-    "url": "https://www.fiverr.com/categories/programming-tech/web-cms-services/bug-fixes"
+    "url": "https://www.fiverr.com/categories/programming-tech/web-cms-services/bug-fixes",
+    "db_live": false
   },
   "1004": {
     "level": "NSC",
@@ -237,7 +259,8 @@
     "vertical_slug": "programming-tech",
     "sc_slug": "web-cms-services",
     "nsc_slug": "backup-cloning-migration",
-    "url": "https://www.fiverr.com/categories/programming-tech/web-cms-services/backup-cloning-migration"
+    "url": "https://www.fiverr.com/categories/programming-tech/web-cms-services/backup-cloning-migration",
+    "db_live": false
   },
   "1005": {
     "level": "NSC",
@@ -249,7 +272,8 @@
     "vertical_slug": "programming-tech",
     "sc_slug": "web-cms-services",
     "nsc_slug": "performance-security",
-    "url": "https://www.fiverr.com/categories/programming-tech/web-cms-services/performance-security"
+    "url": "https://www.fiverr.com/categories/programming-tech/web-cms-services/performance-security",
+    "db_live": false
   },
   "1006": {
     "level": "NSC",
@@ -261,7 +285,8 @@
     "vertical_slug": "programming-tech",
     "sc_slug": "web-cms-services",
     "nsc_slug": "help-consultation",
-    "url": "https://www.fiverr.com/categories/programming-tech/web-cms-services/help-consultation"
+    "url": "https://www.fiverr.com/categories/programming-tech/web-cms-services/help-consultation",
+    "db_live": false
   },
   "1007": {
     "level": "NSC",
@@ -273,7 +298,8 @@
     "vertical_slug": "programming-tech",
     "sc_slug": "ecommerce-services",
     "nsc_slug": "full-website-creation",
-    "url": "https://www.fiverr.com/categories/programming-tech/ecommerce-services/full-website-creation"
+    "url": "https://www.fiverr.com/categories/programming-tech/ecommerce-services/full-website-creation",
+    "db_live": false
   },
   "1008": {
     "level": "NSC",
@@ -285,7 +311,8 @@
     "vertical_slug": "programming-tech",
     "sc_slug": "ecommerce-services",
     "nsc_slug": "theme-plugin-installation",
-    "url": "https://www.fiverr.com/categories/programming-tech/ecommerce-services/theme-plugin-installation"
+    "url": "https://www.fiverr.com/categories/programming-tech/ecommerce-services/theme-plugin-installation",
+    "db_live": false
   },
   "1009": {
     "level": "NSC",
@@ -297,7 +324,8 @@
     "vertical_slug": "programming-tech",
     "sc_slug": "ecommerce-services",
     "nsc_slug": "customization",
-    "url": "https://www.fiverr.com/categories/programming-tech/ecommerce-services/customization"
+    "url": "https://www.fiverr.com/categories/programming-tech/ecommerce-services/customization",
+    "db_live": false
   },
   "1010": {
     "level": "NSC",
@@ -309,7 +337,8 @@
     "vertical_slug": "programming-tech",
     "sc_slug": "ecommerce-services",
     "nsc_slug": "bug-fixes",
-    "url": "https://www.fiverr.com/categories/programming-tech/ecommerce-services/bug-fixes"
+    "url": "https://www.fiverr.com/categories/programming-tech/ecommerce-services/bug-fixes",
+    "db_live": false
   },
   "1011": {
     "level": "NSC",
@@ -321,7 +350,8 @@
     "vertical_slug": "programming-tech",
     "sc_slug": "ecommerce-services",
     "nsc_slug": "backup-cloning-migration",
-    "url": "https://www.fiverr.com/categories/programming-tech/ecommerce-services/backup-cloning-migration"
+    "url": "https://www.fiverr.com/categories/programming-tech/ecommerce-services/backup-cloning-migration",
+    "db_live": false
   },
   "1012": {
     "level": "NSC",
@@ -333,7 +363,8 @@
     "vertical_slug": "programming-tech",
     "sc_slug": "ecommerce-services",
     "nsc_slug": "performance-security",
-    "url": "https://www.fiverr.com/categories/programming-tech/ecommerce-services/performance-security"
+    "url": "https://www.fiverr.com/categories/programming-tech/ecommerce-services/performance-security",
+    "db_live": false
   },
   "1013": {
     "level": "NSC",
@@ -345,7 +376,8 @@
     "vertical_slug": "programming-tech",
     "sc_slug": "ecommerce-services",
     "nsc_slug": "help-consultation",
-    "url": "https://www.fiverr.com/categories/programming-tech/ecommerce-services/help-consultation"
+    "url": "https://www.fiverr.com/categories/programming-tech/ecommerce-services/help-consultation",
+    "db_live": false
   },
   "1029": {
     "level": "NSC",
@@ -357,7 +389,8 @@
     "vertical_slug": "programming-tech",
     "sc_slug": "web-cms-services",
     "nsc_slug": "landing-page",
-    "url": "https://www.fiverr.com/categories/programming-tech/web-cms-services/landing-page"
+    "url": "https://www.fiverr.com/categories/programming-tech/web-cms-services/landing-page",
+    "db_live": false
   },
   "2060": {
     "level": "NSC",
@@ -369,7 +402,8 @@
     "vertical_slug": "online-marketing",
     "sc_slug": "social-marketing",
     "nsc_slug": "consultation-audience-research",
-    "url": "https://www.fiverr.com/categories/online-marketing/social-marketing/consultation-audience-research"
+    "url": "https://www.fiverr.com/categories/online-marketing/social-marketing/consultation-audience-research",
+    "db_live": false
   },
   "2061": {
     "level": "NSC",
@@ -381,7 +415,8 @@
     "vertical_slug": "online-marketing",
     "sc_slug": "social-marketing",
     "nsc_slug": "profile-setup-integration",
-    "url": "https://www.fiverr.com/categories/online-marketing/social-marketing/profile-setup-integration"
+    "url": "https://www.fiverr.com/categories/online-marketing/social-marketing/profile-setup-integration",
+    "db_live": true
   },
   "2062": {
     "level": "NSC",
@@ -393,7 +428,8 @@
     "vertical_slug": "online-marketing",
     "sc_slug": "social-marketing",
     "nsc_slug": "social-content",
-    "url": "https://www.fiverr.com/categories/online-marketing/social-marketing/social-content"
+    "url": "https://www.fiverr.com/categories/online-marketing/social-marketing/social-content",
+    "db_live": true
   },
   "2063": {
     "level": "NSC",
@@ -405,7 +441,8 @@
     "vertical_slug": "online-marketing",
     "sc_slug": "social-marketing",
     "nsc_slug": "social-media-management",
-    "url": "https://www.fiverr.com/categories/online-marketing/social-marketing/social-media-management"
+    "url": "https://www.fiverr.com/categories/online-marketing/social-marketing/social-media-management",
+    "db_live": true
   },
   "2065": {
     "level": "NSC",
@@ -417,7 +454,8 @@
     "vertical_slug": "online-marketing",
     "sc_slug": "social-marketing",
     "nsc_slug": "analytics-tracking",
-    "url": "https://www.fiverr.com/categories/online-marketing/social-marketing/analytics-tracking"
+    "url": "https://www.fiverr.com/categories/online-marketing/social-marketing/analytics-tracking",
+    "db_live": true
   },
   "2240": {
     "level": "NSC",
@@ -429,7 +467,8 @@
     "vertical_slug": "writing-translation",
     "sc_slug": "book-and-ebook-writing",
     "nsc_slug": "ghostwriting",
-    "url": "https://www.fiverr.com/categories/writing-translation/book-and-ebook-writing/ghostwriting"
+    "url": "https://www.fiverr.com/categories/writing-translation/book-and-ebook-writing/ghostwriting",
+    "db_live": true
   },
   "2328": {
     "level": "NSC",
@@ -441,7 +480,8 @@
     "vertical_slug": "video-animation",
     "sc_slug": "music-videos",
     "nsc_slug": "lyric-videos",
-    "url": "https://www.fiverr.com/categories/video-animation/music-videos/lyric-videos"
+    "url": "https://www.fiverr.com/categories/video-animation/music-videos/lyric-videos",
+    "db_live": true
   },
   "2329": {
     "level": "NSC",
@@ -453,7 +493,8 @@
     "vertical_slug": "video-animation",
     "sc_slug": "music-videos",
     "nsc_slug": "music-visualization",
-    "url": "https://www.fiverr.com/categories/video-animation/music-videos/music-visualization"
+    "url": "https://www.fiverr.com/categories/video-animation/music-videos/music-visualization",
+    "db_live": true
   },
   "2330": {
     "level": "NSC",
@@ -465,7 +506,8 @@
     "vertical_slug": "video-animation",
     "sc_slug": "music-videos",
     "nsc_slug": "dance-videos",
-    "url": "https://www.fiverr.com/categories/video-animation/music-videos/dance-videos"
+    "url": "https://www.fiverr.com/categories/video-animation/music-videos/dance-videos",
+    "db_live": true
   },
   "2331": {
     "level": "NSC",
@@ -477,7 +519,8 @@
     "vertical_slug": "video-animation",
     "sc_slug": "music-videos",
     "nsc_slug": "narrative-videos",
-    "url": "https://www.fiverr.com/categories/video-animation/music-videos/narrative-videos"
+    "url": "https://www.fiverr.com/categories/video-animation/music-videos/narrative-videos",
+    "db_live": true
   },
   "2332": {
     "level": "NSC",
@@ -489,7 +532,8 @@
     "vertical_slug": "video-animation",
     "sc_slug": "music-videos",
     "nsc_slug": "performance-videos",
-    "url": "https://www.fiverr.com/categories/video-animation/music-videos/performance-videos"
+    "url": "https://www.fiverr.com/categories/video-animation/music-videos/performance-videos",
+    "db_live": true
   },
   "2333": {
     "level": "NSC",
@@ -501,7 +545,8 @@
     "vertical_slug": "video-animation",
     "sc_slug": "music-videos",
     "nsc_slug": "conceptual-videos",
-    "url": "https://www.fiverr.com/categories/video-animation/music-videos/conceptual-videos"
+    "url": "https://www.fiverr.com/categories/video-animation/music-videos/conceptual-videos",
+    "db_live": true
   },
   "2341": {
     "level": "NSC",
@@ -513,7 +558,8 @@
     "vertical_slug": "video-animation",
     "sc_slug": "music-videos",
     "nsc_slug": "anime-music-videos",
-    "url": "https://www.fiverr.com/categories/video-animation/music-videos/anime-music-videos"
+    "url": "https://www.fiverr.com/categories/video-animation/music-videos/anime-music-videos",
+    "db_live": true
   },
   "2489": {
     "level": "NSC",
@@ -525,7 +571,8 @@
     "vertical_slug": "video-animation",
     "sc_slug": "music-videos",
     "nsc_slug": "spotify-canvas",
-    "url": "https://www.fiverr.com/categories/video-animation/music-videos/spotify-canvas"
+    "url": "https://www.fiverr.com/categories/video-animation/music-videos/spotify-canvas",
+    "db_live": true
   },
   "2357": {
     "level": "NSC",
@@ -537,7 +584,8 @@
     "vertical_slug": "programming-tech",
     "sc_slug": "development-for-streamers",
     "nsc_slug": "setup-installation",
-    "url": "https://www.fiverr.com/categories/programming-tech/development-for-streamers/setup-installation"
+    "url": "https://www.fiverr.com/categories/programming-tech/development-for-streamers/setup-installation",
+    "db_live": true
   },
   "2358": {
     "level": "NSC",
@@ -549,7 +597,8 @@
     "vertical_slug": "programming-tech",
     "sc_slug": "development-for-streamers",
     "nsc_slug": "addons-customization",
-    "url": "https://www.fiverr.com/categories/programming-tech/development-for-streamers/addons-customization"
+    "url": "https://www.fiverr.com/categories/programming-tech/development-for-streamers/addons-customization",
+    "db_live": true
   },
   "2412": {
     "level": "NSC",
@@ -561,7 +610,8 @@
     "vertical_slug": "graphics-design",
     "sc_slug": "fashion-design",
     "nsc_slug": "technical-drawing",
-    "url": "https://www.fiverr.com/categories/graphics-design/fashion-design/technical-drawing"
+    "url": "https://www.fiverr.com/categories/graphics-design/fashion-design/technical-drawing",
+    "db_live": true
   },
   "2414": {
     "level": "NSC",
@@ -573,7 +623,8 @@
     "vertical_slug": "graphics-design",
     "sc_slug": "fashion-design",
     "nsc_slug": "fashion-illustration",
-    "url": "https://www.fiverr.com/categories/graphics-design/fashion-design/fashion-illustration"
+    "url": "https://www.fiverr.com/categories/graphics-design/fashion-design/fashion-illustration",
+    "db_live": true
   },
   "2416": {
     "level": "NSC",
@@ -585,7 +636,8 @@
     "vertical_slug": "graphics-design",
     "sc_slug": "fashion-design",
     "nsc_slug": "full-design-process",
-    "url": "https://www.fiverr.com/categories/graphics-design/fashion-design/full-design-process"
+    "url": "https://www.fiverr.com/categories/graphics-design/fashion-design/full-design-process",
+    "db_live": true
   },
   "2441": {
     "level": "NSC",
@@ -597,7 +649,8 @@
     "vertical_slug": "video-animation",
     "sc_slug": "animated-explainer-videos",
     "nsc_slug": "2d",
-    "url": "https://www.fiverr.com/categories/video-animation/animated-explainer-videos/2d"
+    "url": "https://www.fiverr.com/categories/video-animation/animated-explainer-videos/2d",
+    "db_live": true
   },
   "2442": {
     "level": "NSC",
@@ -609,7 +662,8 @@
     "vertical_slug": "video-animation",
     "sc_slug": "animated-explainer-videos",
     "nsc_slug": "3d",
-    "url": "https://www.fiverr.com/categories/video-animation/animated-explainer-videos/3d"
+    "url": "https://www.fiverr.com/categories/video-animation/animated-explainer-videos/3d",
+    "db_live": true
   },
   "2443": {
     "level": "NSC",
@@ -621,7 +675,8 @@
     "vertical_slug": "video-animation",
     "sc_slug": "animated-explainer-videos",
     "nsc_slug": "isometric",
-    "url": "https://www.fiverr.com/categories/video-animation/animated-explainer-videos/isometric"
+    "url": "https://www.fiverr.com/categories/video-animation/animated-explainer-videos/isometric",
+    "db_live": true
   },
   "2619": {
     "level": "NSC",
@@ -633,7 +688,8 @@
     "vertical_slug": "programming-tech",
     "sc_slug": "website-maintenance",
     "nsc_slug": "bug-fixes",
-    "url": "https://www.fiverr.com/categories/programming-tech/website-maintenance/bug-fixes"
+    "url": "https://www.fiverr.com/categories/programming-tech/website-maintenance/bug-fixes",
+    "db_live": true
   },
   "51": {
     "level": "SC",
@@ -643,7 +699,8 @@
     "vertical_slug": "graphics-design",
     "sc_slug": "book-design",
     "nsc_slug": null,
-    "url": "https://www.fiverr.com/categories/graphics-design/book-design"
+    "url": "https://www.fiverr.com/categories/graphics-design/book-design",
+    "db_live": true
   },
   "235": {
     "level": "SC",
@@ -653,7 +710,8 @@
     "vertical_slug": "video-animation",
     "sc_slug": "animated-characters-modeling",
     "nsc_slug": null,
-    "url": "https://www.fiverr.com/categories/video-animation/animated-characters-modeling"
+    "url": "https://www.fiverr.com/categories/video-animation/animated-characters-modeling",
+    "db_live": true
   },
   "2243": {
     "level": "NSC",
@@ -665,7 +723,8 @@
     "vertical_slug": "programming-tech",
     "sc_slug": "game-development",
     "nsc_slug": "full-game-creation",
-    "url": "https://www.fiverr.com/categories/programming-tech/game-development/full-game-creation"
+    "url": "https://www.fiverr.com/categories/programming-tech/game-development/full-game-creation",
+    "db_live": true
   },
   "2245": {
     "level": "NSC",
@@ -677,6 +736,7 @@
     "vertical_slug": "programming-tech",
     "sc_slug": "game-development",
     "nsc_slug": "customization",
-    "url": "https://www.fiverr.com/categories/programming-tech/game-development/customization"
+    "url": "https://www.fiverr.com/categories/programming-tech/game-development/customization",
+    "db_live": true
   }
 }

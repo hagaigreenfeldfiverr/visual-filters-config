@@ -207,16 +207,15 @@
     <div class="sub">
       Source: <span class="id-pill">config.js</span> (attributes/values) ·
       <span class="id-pill">imageMapper.js</span> (icons) ·
-      <span class="id-pill">constants.js</span> (active/tested-out flag) ·
-      <span class="id-pill">category_lookup.json</span> (vertical/SC/NSC names, from BigQuery dwh.categories/sub_categories/nested_sub_categories) ·
-      <span class="id-pill">config.test.js</span> + <span class="id-pill">imageMapper.test.js</span> + <span class="id-pill">constants.test.js</span> ("test" version — live config with proposed candidates merged in, deliverable as-is) ·
+      <span class="id-pill">category_lookup.json</span> (vertical/SC/NSC names + DB visibility, from BigQuery dwh.categories/sub_categories/nested_sub_categories) ·
+      <span class="id-pill">config.test.js</span> + <span class="id-pill">imageMapper.test.js</span> ("test" version — live config with proposed candidates merged in, deliverable as-is) ·
       <span class="id-pill">metadata_alias.csv</span> (display name per value, matched by Vertical-SC-Nested-attribute-value) ·
       <span class="id-pill">visual_filters_live_check.csv</span> (manual check of whether the "Select ..." strip actually renders on each live category page).
       <span style="color:var(--muted)">*</span> = icon inherited from parent SC's imageMapper.js entry ·
       <span style="color:var(--inactive)">&dagger;</span> = no alias row in metadata_alias.csv for this value in this category, showing title-cased value id instead.
       <br />
-      <strong>Category status</strong>: Live = in constants.js flag list, Closed = not in it (candidates: N/A).
-      <strong>Visual filter status</strong>: Active = verified showing on the live page, Candidate = not shipped yet, Inactive = shipped but the strip doesn't render (or unverified).
+      <strong>Category status</strong>: Live/Closed from the taxonomy DB (sub_categories/nested_sub_categories visible + available_to_sellers) — independent of visual filters; a candidate can be a live category with no filter shipped yet. <span class="id-pill" title="constants.js's INCLUDED_SC_NAVIGATION_TILES_TESTED_OUT is a rollout/test flag for a different feature and does not reliably predict what's live on site — it's no longer used for this column.">not from constants.js</span>
+      <strong>Visual filter status</strong>: Active = verified showing on the live page, Candidate = not shipped yet, Inactive = shipped but the strip doesn't render, unverified, or the category itself is Closed.
     </div>
   </details>
   <div class="controls">
@@ -252,8 +251,8 @@
     "url": "https://www.fiverr.com/categories/music-audio/session-musicians",
     "active": true,
     "categoryStatus": "live",
-    "visualFilterStatus": "inactive",
-    "liveCheckFound": false,
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -330,7 +329,7 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/programming-tech/website-maintenance/bug-fixes",
     "active": false,
-    "categoryStatus": "closed",
+    "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
     "hasImages": true,
@@ -518,7 +517,7 @@
     "level": "SC",
     "url": "https://www.fiverr.com/categories/lifestyle/game-coaching",
     "active": true,
-    "categoryStatus": "live",
+    "categoryStatus": "closed",
     "visualFilterStatus": "inactive",
     "liveCheckFound": false,
     "hasImages": true,
@@ -957,7 +956,7 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/video-animation/music-videos/anime-music-videos",
     "active": false,
-    "categoryStatus": "closed",
+    "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
     "hasImages": true,
@@ -994,7 +993,7 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/video-animation/music-videos/conceptual-videos",
     "active": false,
-    "categoryStatus": "closed",
+    "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
     "hasImages": true,
@@ -1031,7 +1030,7 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/video-animation/music-videos/dance-videos",
     "active": false,
-    "categoryStatus": "closed",
+    "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
     "hasImages": true,
@@ -1068,7 +1067,7 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/video-animation/music-videos/lyric-videos",
     "active": false,
-    "categoryStatus": "closed",
+    "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
     "hasImages": true,
@@ -1105,7 +1104,7 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/video-animation/music-videos/music-visualization",
     "active": false,
-    "categoryStatus": "closed",
+    "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
     "hasImages": true,
@@ -1142,7 +1141,7 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/video-animation/music-videos/narrative-videos",
     "active": false,
-    "categoryStatus": "closed",
+    "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
     "hasImages": true,
@@ -1179,7 +1178,7 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/video-animation/music-videos/performance-videos",
     "active": false,
-    "categoryStatus": "closed",
+    "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
     "hasImages": true,
@@ -1216,7 +1215,7 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/video-animation/music-videos/spotify-canvas",
     "active": false,
-    "categoryStatus": "closed",
+    "categoryStatus": "live",
     "visualFilterStatus": "inactive",
     "liveCheckFound": false,
     "hasImages": true,
@@ -1254,8 +1253,8 @@
     "url": "https://www.fiverr.com/categories/music-audio/singers-vocalists",
     "active": true,
     "categoryStatus": "live",
-    "visualFilterStatus": "inactive",
-    "liveCheckFound": false,
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -1616,7 +1615,7 @@
     "url": "https://www.fiverr.com/categories/programming-tech/web-cms-services/bug-fixes",
     "active": false,
     "categoryStatus": "closed",
-    "visualFilterStatus": "active",
+    "visualFilterStatus": "inactive",
     "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
@@ -2139,7 +2138,7 @@
     "url": "https://www.fiverr.com/categories/programming-tech/ecommerce-services/bug-fixes",
     "active": false,
     "categoryStatus": "closed",
-    "visualFilterStatus": "active",
+    "visualFilterStatus": "inactive",
     "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
@@ -2456,7 +2455,7 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/online-marketing/social-marketing/profile-setup-integration",
     "active": false,
-    "categoryStatus": "closed",
+    "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
     "hasImages": true,
@@ -2514,7 +2513,7 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/online-marketing/social-marketing/social-content",
     "active": false,
-    "categoryStatus": "closed",
+    "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
     "hasImages": true,
@@ -2572,7 +2571,7 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/online-marketing/social-marketing/social-media-management",
     "active": false,
-    "categoryStatus": "closed",
+    "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
     "hasImages": true,
@@ -2630,7 +2629,7 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/online-marketing/social-marketing/analytics-tracking",
     "active": false,
-    "categoryStatus": "closed",
+    "categoryStatus": "live",
     "visualFilterStatus": "active",
     "liveCheckFound": true,
     "hasImages": true,
@@ -2969,8 +2968,8 @@
     "url": "https://www.fiverr.com/categories/music-audio/singers-vocalists",
     "active": true,
     "categoryStatus": "live",
-    "visualFilterStatus": "inactive",
-    "liveCheckFound": false,
+    "visualFilterStatus": "active",
+    "liveCheckFound": true,
     "hasImages": true,
     "hasPartialImages": false,
     "filters": [
@@ -3012,7 +3011,7 @@
     "level": "SC",
     "url": "https://www.fiverr.com/categories/programming-tech/online-coding-lessons",
     "active": false,
-    "categoryStatus": "closed",
+    "categoryStatus": "live",
     "visualFilterStatus": "inactive",
     "liveCheckFound": false,
     "hasImages": true,
@@ -3816,7 +3815,7 @@
     "level": "SC",
     "url": "https://www.fiverr.com/categories/graphics-design/book-design",
     "active": false,
-    "categoryStatus": null,
+    "categoryStatus": "live",
     "visualFilterStatus": "candidate",
     "liveCheckFound": false,
     "hasImages": true,
@@ -3867,7 +3866,7 @@
     "level": "SC",
     "url": "https://www.fiverr.com/categories/video-animation/animated-characters-modeling",
     "active": false,
-    "categoryStatus": null,
+    "categoryStatus": "live",
     "visualFilterStatus": "candidate",
     "liveCheckFound": false,
     "hasImages": true,
@@ -3911,7 +3910,7 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/programming-tech/game-development/full-game-creation",
     "active": false,
-    "categoryStatus": null,
+    "categoryStatus": "live",
     "visualFilterStatus": "candidate",
     "liveCheckFound": false,
     "hasImages": true,
@@ -3969,7 +3968,7 @@
     "level": "NSC",
     "url": "https://www.fiverr.com/categories/programming-tech/game-development/customization",
     "active": false,
-    "categoryStatus": null,
+    "categoryStatus": "live",
     "visualFilterStatus": "candidate",
     "liveCheckFound": false,
     "hasImages": true,
@@ -4073,10 +4072,10 @@
         const onlyMissing = onlyMissingEl.checked;
 
         const filtered = data.filter(cat => {
-          // all: everything, live regardless of active flag, no candidates.
-          // live: only live categories currently active per constants.js.
-          // test: live + candidates, i.e. config.test.js as a whole.
-          if (mode === 'live' && (cat.status !== 'live' || !cat.active)) return false;
+          // all: every shipped (config.js) category regardless of DB status, no candidates.
+          // live: only shipped categories that are also Live per the taxonomy DB.
+          // candidate: only proposed categories from config.test.js.
+          if (mode === 'live' && (cat.status !== 'live' || cat.categoryStatus !== 'live')) return false;
           if (mode === 'all' && cat.status === 'candidate') return false;
           if (mode === 'candidate' && cat.status !== 'candidate') return false;
           if (onlyMissing && cat.hasImages) return false;
