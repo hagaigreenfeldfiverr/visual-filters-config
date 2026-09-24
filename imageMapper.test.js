@@ -237,6 +237,7 @@ const unity = 'https://fiverr-res.cloudinary.com/image/upload/v1790059414/listin
 const unreal_engine = 'https://fiverr-res.cloudinary.com/image/upload/v1790059442/listings_assets/metadata/unreal_engine.svg';
 const fivem = 'https://fiverr-res.cloudinary.com/image/upload/v1790059280/listings_assets/metadata/fivem.svg';
 const godot = 'https://fiverr-res.cloudinary.com/image/upload/v1790059317/listings_assets/metadata/godot.svg';
+const roblox_game_engine = 'https://fiverr-res.cloudinary.com/image/upload/v1790059355/listings_assets/metadata/roblox.svg';
 const illustrative_design_style = 'https://fiverr-res.cloudinary.com/image/upload/v1790059052/listings_assets/metadata/illustrative.svg';
 const typographic_design_style = 'https://fiverr-res.cloudinary.com/image/upload/v1790059241/listings_assets/metadata/typographic.svg';
 const photographic_design_style = 'https://fiverr-res.cloudinary.com/image/upload/v1790059168/listings_assets/metadata/photographic.svg';
@@ -711,14 +712,13 @@ export default {
         unity,
         unreal_engine,
         fivem,
-        roblox,
+        roblox: roblox_game_engine,
         godot,
     },
     2245: {
         unity,
         unreal_engine,
-        fivem,
-        roblox,
+        roblox: roblox_game_engine,
         godot,
     },
     51: {

@@ -651,7 +651,7 @@ const getVisualFiltersConfig = () => [
         filters: [
             {
                 id: 'game_engine',
-                options: ['unity', 'unreal_engine', 'fivem', 'roblox', 'godot'],
+                options: ['unity', 'unreal_engine', 'roblox', 'godot'],
             },
         ],
     },

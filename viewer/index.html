@@ -23,7 +23,16 @@
     padding: 24px;
   }
   h1 { font-size: 20px; margin: 0 0 4px; }
-  .sub { color: var(--muted); font-size: 13px; margin-bottom: 16px; }
+  .sub-details { margin-bottom: 16px; }
+  .sub-details summary {
+    cursor: pointer;
+    font-size: 13px;
+    color: var(--muted);
+    font-weight: 600;
+    padding: 4px 0;
+  }
+  .sub-details summary:hover { color: var(--text); }
+  .sub { color: var(--muted); font-size: 13px; margin-top: 8px; }
   .controls {
     display: flex;
     gap: 12px;
@@ -53,18 +62,16 @@
     cursor: pointer;
   }
   .count { font-size: 13px; color: var(--muted); margin-left: auto; }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 13px;
+
+  .grid-header, .cat-header {
+    display: grid;
+    grid-template-columns: 90px 140px 260px 70px 100px 90px;
+    gap: 12px;
+    align-items: start;
   }
-  th, td {
-    border-bottom: 1px solid var(--border);
+  .grid-header {
     padding: 10px 12px;
-    text-align: left;
-    vertical-align: top;
-  }
-  th {
+    border-bottom: 1px solid var(--border);
     color: var(--muted);
     font-weight: 600;
     text-transform: uppercase;
@@ -74,7 +81,13 @@
     top: 0;
     background: var(--bg);
   }
-  tr:hover td { background: #fafafa; }
+  .cat-card {
+    border-bottom: 1px solid var(--border);
+    padding: 14px 12px;
+    font-size: 13px;
+  }
+  .cat-card:hover { background: #fafafa; }
+  .cat-attrs { margin-top: 14px; }
   .badge {
     display: inline-block;
     padding: 2px 8px;
@@ -176,16 +189,19 @@
 </head>
 <body>
   <h1>Visual Filters — Configured Categories</h1>
-  <div class="sub">
-    Source: <span class="id-pill">config.js</span> (attributes/values) ·
-    <span class="id-pill">imageMapper.js</span> (icons) ·
-    <span class="id-pill">constants.js</span> (active/tested-out flag) ·
-    <span class="id-pill">category_lookup.json</span> (vertical/SC/NSC names, from BigQuery dwh.categories/sub_categories/nested_sub_categories) ·
-    <span class="id-pill">config.test.js</span> + <span class="id-pill">imageMapper.test.js</span> + <span class="id-pill">constants.test.js</span> ("test" version — live config with proposed candidates merged in, deliverable as-is) ·
-    <span class="id-pill">metadata_alias.csv</span> (display name per value, matched by Vertical-SC-Nested-attribute-value).
-    <span style="color:var(--muted)">*</span> = icon inherited from parent SC's imageMapper.js entry ·
-    <span style="color:var(--inactive)">&dagger;</span> = no alias row in metadata_alias.csv for this value in this category, showing title-cased value id instead.
-  </div>
+  <details class="sub-details">
+    <summary>Sources &amp; legend</summary>
+    <div class="sub">
+      Source: <span class="id-pill">config.js</span> (attributes/values) ·
+      <span class="id-pill">imageMapper.js</span> (icons) ·
+      <span class="id-pill">constants.js</span> (active/tested-out flag) ·
+      <span class="id-pill">category_lookup.json</span> (vertical/SC/NSC names, from BigQuery dwh.categories/sub_categories/nested_sub_categories) ·
+      <span class="id-pill">config.test.js</span> + <span class="id-pill">imageMapper.test.js</span> + <span class="id-pill">constants.test.js</span> ("test" version — live config with proposed candidates merged in, deliverable as-is) ·
+      <span class="id-pill">metadata_alias.csv</span> (display name per value, matched by Vertical-SC-Nested-attribute-value).
+      <span style="color:var(--muted)">*</span> = icon inherited from parent SC's imageMapper.js entry ·
+      <span style="color:var(--inactive)">&dagger;</span> = no alias row in metadata_alias.csv for this value in this category, showing title-cased value id instead.
+    </div>
+  </details>
   <div class="controls">
     <input type="text" id="search" placeholder="Search by category ID, name, attribute, or value..." />
     <select id="statusFilter">
@@ -193,24 +209,20 @@
       <option value="live">Live only</option>
       <option value="candidate">Candidates only</option>
     </select>
-    <label class="chk"><input type="checkbox" id="onlyActive" /> Active only</label>
+    <label class="chk"><input type="checkbox" id="onlyActive" checked /> Active only</label>
     <label class="chk"><input type="checkbox" id="onlyMissingImages" /> Missing images only</label>
+    <label class="chk" title="Candidates (proposed, not-yet-live categories) are hidden unless Dev mode is on"><input type="checkbox" id="devMode" /> Dev mode (show candidates)</label>
     <span class="count" id="count"></span>
   </div>
-  <table>
-    <thead>
-      <tr>
-        <th style="width:90px">Status</th>
-        <th style="width:140px">Vertical</th>
-        <th style="width:180px">Category</th>
-        <th style="width:70px">ID</th>
-        <th style="width:80px">Active</th>
-        <th style="width:80px">Images</th>
-        <th>Attributes &amp; Values</th>
-      </tr>
-    </thead>
-    <tbody id="rows"></tbody>
-  </table>
+  <div class="grid-header">
+    <div>Status</div>
+    <div>Vertical</div>
+    <div>Category</div>
+    <div>ID</div>
+    <div>Active</div>
+    <div>Images</div>
+  </div>
+  <div id="rows"></div>
 
   <script>
     async function main() {
@@ -3679,7 +3691,7 @@
             "value": "roblox",
             "alias": "Roblox",
             "aliasSource": "csv",
-            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/roblox.svg",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1790059355/listings_assets/metadata/roblox.svg",
             "imageSource": "own"
           },
           {
@@ -3723,17 +3735,10 @@
             "imageSource": "own"
           },
           {
-            "value": "fivem",
-            "alias": "FiveM",
-            "aliasSource": "csv",
-            "image": "https://fiverr-res.cloudinary.com/image/upload/v1790059280/listings_assets/metadata/fivem.svg",
-            "imageSource": "own"
-          },
-          {
             "value": "roblox",
             "alias": "Roblox",
             "aliasSource": "csv",
-            "image": "https://fiverr-res.cloudinary.com/image/upload/v1789572018/listings_assets/metadata/roblox.svg",
+            "image": "https://fiverr-res.cloudinary.com/image/upload/v1790059355/listings_assets/metadata/roblox.svg",
             "imageSource": "own"
           },
           {
@@ -3754,6 +3759,7 @@
       const statusFilterEl = document.getElementById('statusFilter');
       const onlyActiveEl = document.getElementById('onlyActive');
       const onlyMissingEl = document.getElementById('onlyMissingImages');
+      const devModeEl = document.getElementById('devMode');
       const countEl = document.getElementById('count');
 
       function optionHtml(opt) {
@@ -3785,17 +3791,19 @@
           : '<span class="badge active">Live</span>';
 
         return `
-          <tr class="${cat.status === 'candidate' ? 'candidate-row' : ''}">
-            <td>${statusBadge}</td>
-            <td>${cat.vertical || '<span style="color:var(--inactive)">Unknown</span>'}</td>
-            <td>${categoryLabel}<div style="color:var(--muted);font-size:11px">${cat.level || ''}</div></td>
-            <td><span class="id-pill">${cat.id}</span></td>
-            <td>${cat.status === 'candidate'
-              ? '<span class="badge candidate">N/A</span>'
-              : `<span class="badge ${cat.active ? 'active' : 'inactive'}">${cat.active ? 'Active' : 'Not in flag list'}</span>`}</td>
-            <td>${cat.hasImages ? '<span class="badge active">Mapped</span>' : '<span class="badge inactive">None</span>'}</td>
-            <td>${attrsHtml}</td>
-          </tr>
+          <div class="cat-card${cat.status === 'candidate' ? ' candidate-row' : ''}">
+            <div class="cat-header">
+              <div>${statusBadge}</div>
+              <div>${cat.vertical || '<span style="color:var(--inactive)">Unknown</span>'}</div>
+              <div>${categoryLabel}<div style="color:var(--muted);font-size:11px">${cat.level || ''}</div></div>
+              <div><span class="id-pill">${cat.id}</span></div>
+              <div>${cat.status === 'candidate'
+                ? '<span class="badge candidate">N/A</span>'
+                : `<span class="badge ${cat.active ? 'active' : 'inactive'}">${cat.active ? 'Active' : 'Not in flag list'}</span>`}</div>
+              <div>${cat.hasImages ? '<span class="badge active">Mapped</span>' : '<span class="badge inactive">None</span>'}</div>
+            </div>
+            <div class="cat-attrs">${attrsHtml}</div>
+          </div>
         `;
       }
 
@@ -3804,8 +3812,10 @@
         const statusFilter = statusFilterEl.value;
         const onlyActive = onlyActiveEl.checked;
         const onlyMissing = onlyMissingEl.checked;
+        const devMode = devModeEl.checked;
 
         const filtered = data.filter(cat => {
+          if (cat.status === 'candidate' && !devMode) return false;
           if (statusFilter !== 'all' && cat.status !== statusFilter) return false;
           if (onlyActive && !cat.active) return false;
           if (onlyMissing && cat.hasImages) return false;
@@ -3828,6 +3838,7 @@
       statusFilterEl.addEventListener('change', render);
       onlyActiveEl.addEventListener('change', render);
       onlyMissingEl.addEventListener('change', render);
+      devModeEl.addEventListener('change', render);
       render();
     }
     main();
