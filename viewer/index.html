@@ -87,6 +87,7 @@
     font-size: 13px;
   }
   .cat-card:hover { background: #fafafa; }
+  .cat-name { font-weight: 700; font-size: 16px; color: var(--text); }
   .cat-attrs { margin-top: 14px; }
   .badge {
     display: inline-block;
@@ -3795,7 +3796,7 @@
             <div class="cat-header">
               <div>${statusBadge}</div>
               <div>${cat.vertical || '<span style="color:var(--inactive)">Unknown</span>'}</div>
-              <div>${categoryLabel}<div style="color:var(--muted);font-size:11px">${cat.level || ''}</div></div>
+              <div><div class="cat-name">${categoryLabel}</div><div style="color:var(--muted);font-size:11px">${cat.level || ''}</div></div>
               <div><span class="id-pill">${cat.id}</span></div>
               <div>${cat.status === 'candidate'
                 ? '<span class="badge candidate">N/A</span>'
