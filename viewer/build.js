@@ -135,6 +135,7 @@ function buildRows(filtersConfig, status) {
             sc: lookup ? lookup.sc : null,
             nsc: lookup ? lookup.nsc : null,
             level: lookup ? lookup.level : null,
+            url: lookup ? lookup.url : null,
             active: status === 'live' ? activeIds.has(String(cat.id)) : false,
             hasImages: resolvedCount === allOptions.length,
             hasPartialImages: resolvedCount > 0 && resolvedCount < allOptions.length,
