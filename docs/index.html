@@ -74,7 +74,7 @@
 
   .grid-header, .cat-header {
     display: grid;
-    grid-template-columns: 160px 300px 70px 100px 90px;
+    grid-template-columns: 160px minmax(300px, 1fr) 70px 100px 90px;
     gap: 12px;
     align-items: start;
   }
@@ -96,7 +96,8 @@
     font-size: 13px;
   }
   .cat-card:hover { background: #fafafa; }
-  .cat-name { font-weight: 700; font-size: 16px; color: var(--text); }
+  .cat-name { font-weight: 700; font-size: 16px; color: var(--text); white-space: nowrap; }
+  .cat-vertical { font-weight: 700; }
   .cat-attrs { margin-top: 14px; }
   .badge {
     display: inline-block;
@@ -3798,7 +3799,7 @@
         return `
           <div class="cat-card${cat.status === 'candidate' ? ' candidate-row' : ''}">
             <div class="cat-header">
-              <div>${cat.vertical || '<span style="color:var(--inactive)">Unknown</span>'}</div>
+              <div class="cat-vertical">${cat.vertical || '<span style="color:var(--inactive)">Unknown</span>'}</div>
               <div><div class="cat-name">${categoryLabel}${candidateBadge}</div><div style="color:var(--muted);font-size:11px">${cat.level || ''}</div></div>
               <div><span class="id-pill">${cat.id}</span></div>
               <div>${cat.status === 'candidate'
