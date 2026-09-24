@@ -74,7 +74,7 @@
 
   .grid-header, .cat-header {
     display: grid;
-    grid-template-columns: 90px 140px 260px 70px 100px 90px;
+    grid-template-columns: 160px 300px 70px 100px 90px;
     gap: 12px;
     align-items: start;
   }
@@ -223,7 +223,6 @@
     <span class="count" id="count"></span>
   </div>
   <div class="grid-header">
-    <div>Status</div>
     <div>Vertical</div>
     <div>Category</div>
     <div>ID</div>
@@ -3792,16 +3791,15 @@
           ? `${cat.sc} <span style="color:var(--muted)">›</span> ${cat.nsc}`
           : cat.sc;
 
-        const statusBadge = cat.status === 'candidate'
-          ? '<span class="badge candidate">Candidate</span>'
+        const candidateBadge = cat.status === 'candidate'
+          ? ' <span class="badge candidate">Candidate</span>'
           : '';
 
         return `
           <div class="cat-card${cat.status === 'candidate' ? ' candidate-row' : ''}">
             <div class="cat-header">
-              <div>${statusBadge}</div>
               <div>${cat.vertical || '<span style="color:var(--inactive)">Unknown</span>'}</div>
-              <div><div class="cat-name">${categoryLabel}</div><div style="color:var(--muted);font-size:11px">${cat.level || ''}</div></div>
+              <div><div class="cat-name">${categoryLabel}${candidateBadge}</div><div style="color:var(--muted);font-size:11px">${cat.level || ''}</div></div>
               <div><span class="id-pill">${cat.id}</span></div>
               <div>${cat.status === 'candidate'
                 ? '<span class="badge candidate">N/A</span>'
